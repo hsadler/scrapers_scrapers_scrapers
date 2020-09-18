@@ -7,12 +7,8 @@ docker build \
 
 # run docker container with exposed port
 docker run -it --rm \
+    -v=$PWD/app:/app \
     -p=80:80 \
     --name=scrapers_scrapers_scrapers \
-    scrapers_scrapers_scrapers:local
-
-# example of running a volume for the application files:
-# docker run -it --rm \
-#     -v=$PWD:/go/src \
-#     -p=8090:8090 \
-#     --name=go_web_app go_web_app:local \
+    scrapers_scrapers_scrapers:local \
+    /bin/bash

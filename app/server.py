@@ -9,14 +9,6 @@ from flask import (
 
 
 # init Flask app instance
-
-# don't know if i'll need the static folder and template folder here...
-# app = Flask(
-# 	__name__,
-# 	static_folder='../client/dist/static',
-# 	template_folder='../client/dist'
-# )
-
 app = Flask(
 	__name__
 )

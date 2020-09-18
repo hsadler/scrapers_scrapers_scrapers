@@ -9,5 +9,5 @@ RUN pip install -r /tmp/requirements.txt
 COPY ./app /app
 WORKDIR /app
 
-ENTRYPOINT ["python"]
-CMD ["server.py"]
+# ENTRYPOINT ["python"]
+# CMD ["server.py"]
