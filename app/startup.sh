@@ -1,0 +1,2 @@
+crond;
+python server.py

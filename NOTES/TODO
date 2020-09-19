@@ -3,6 +3,7 @@ TODO:
 
 X setup docker containerization
 X get server running
+- get crond working
 - get basic scraping working
 - get emailing working
 - scrape Samtrygg

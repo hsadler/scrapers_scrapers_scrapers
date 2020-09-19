@@ -12,4 +12,4 @@ docker run -it --rm \
     -v=$PWD/crons/15min:/etc/periodic/15min \
     -p=80:80 \
     --name=scrapers_scrapers_scrapers \
-    scrapers_scrapers_scrapers:local /bin/bash
+    scrapers_scrapers_scrapers:local

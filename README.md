@@ -19,5 +19,5 @@ docker build \
 ### spin-up the container for web scraping
 
 ```sh
-sh spin_up.sh
+sh up.sh
 ```
