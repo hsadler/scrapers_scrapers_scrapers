@@ -1,0 +1,1 @@
+cd /app/scripts && python scrape_samtrygg.py

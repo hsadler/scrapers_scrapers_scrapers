@@ -1,9 +1,10 @@
-
 import requests
 
-class ScrapeSamtrygg():
+
+class Scrape():
 
     @staticmethod
-    def scrape():
+    def scrape_samtrygg():
         res = requests.get("https://www.samtrygg.se/RentalObject/SearchResult?search=")
-        return res.text
+        return res.json()
+        
