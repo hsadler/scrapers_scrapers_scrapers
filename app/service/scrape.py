@@ -38,3 +38,14 @@ class Scrape():
         res = requests.get("https://api.qasa.se/v1/homes/search")
         return res.json()
         
+
+    @staticmethod
+    def scrape_hemnet_api():
+        res = requests.get("https://www.hemnet.se/bostader/search/cea7d9ceb034a2be436a133ae6066e468075d8b3")
+        return res.json()
+
+
+    @staticmethod
+    def scrape_booli_api():
+        res = requests.get("https://www.booli.se/1.json?sort=published&direction=desc&page=1&upcomingSale=")
+        return res.json()
