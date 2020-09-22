@@ -20,6 +20,15 @@ def ping():
     return jsonify({ 'output': 'hi there' })
 
 
+# get Samtrygg results
+@app.route('/get_samtrygg_results', methods=['GET'])
+def get_samtrygg_results():
+    filepath = '/samtrygg_scrape_results.json'
+    with open(filepath) as f:
+        json_string = f.read()
+        return json_string
+
+
 # run the app if executed as main file to python interpreter
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
