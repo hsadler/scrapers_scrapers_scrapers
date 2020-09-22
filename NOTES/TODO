@@ -3,9 +3,16 @@ TODO:
 
 X setup docker containerization
 X get server running
-- get crond working
-- get basic scraping working
-- get emailing working
-- scrape Samtrygg
-- scrape Blocket
+X get crond working
+X get basic scraping working
+- data filtering and formatting:
+    - samtrygg
+    - qasa
+    - hemnet
+    - booli
+- emailing:
+    - samtrygg
+    - qasa
+    - hemnet
+    - booli
 - setup cronjobs for desired scrapes

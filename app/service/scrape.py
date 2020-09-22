@@ -15,6 +15,7 @@ class Scrape():
     
     @staticmethod
     def scrape_blocket():
+        # NOTE: blocket and qasa use the same api
         pass
 
     
