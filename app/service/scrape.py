@@ -1,4 +1,5 @@
 import requests
+import config.scrape_config as scrape_config
 
 
 class Scrape():
@@ -8,9 +9,9 @@ class Scrape():
 
     @staticmethod
     def scrape_samtrygg_api(search=None):
-        req_url = "https://www.samtrygg.se/RentalObject/SearchResult"
+        req_url = scrape_config.SAMTRYGG_JSON_API_URL
         if search is not None:
-            req_url += ("?search=" + search)
+            req_url += ('?search=' + search)
         res = requests.get(req_url)
         return res.json()
 

@@ -2,6 +2,7 @@ import sys
 sys.path.append('..')
 
 import json
+import config.scrape_config as scrape_config
 from service.scrape import Scrape
 
 # scrape api
@@ -12,7 +13,7 @@ id_to_listing = Scrape.format_samtrygg_api_result_for_datastore(
     scrape_result
 )
 # store to json file
-filepath = '/samtrygg_scrape_results.json'
+filepath = '/' + scrape_config.SAMTRYGG_DATASTORE_FILENAME
 with open(filepath, "w") as f:
     json_string = json.dumps(id_to_listing, indent=2, sort_keys=True)
     f.write(json_string)

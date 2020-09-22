@@ -6,6 +6,7 @@ from flask import (
     make_response,
     jsonify
 )
+import config.scrape_config as scrape_config
 
 
 # init Flask app instance
@@ -23,7 +24,7 @@ def ping():
 # get Samtrygg results
 @app.route('/get_samtrygg_results', methods=['GET'])
 def get_samtrygg_results():
-    filepath = '/samtrygg_scrape_results.json'
+    filepath = '/' + scrape_config.SAMTRYGG_DATASTORE_FILENAME
     with open(filepath) as f:
         json_string = f.read()
         return json_string
