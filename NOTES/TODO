@@ -5,6 +5,7 @@ X setup docker containerization
 X get server running
 X get crond working
 X get basic scraping working
+X finalize scraped data storage placement
 - data filtering and formatting:
     - samtrygg
     - qasa

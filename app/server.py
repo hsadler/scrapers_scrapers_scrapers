@@ -22,10 +22,9 @@ def ping():
 
 
 # get Samtrygg results
-@app.route('/get_samtrygg_results', methods=['GET'])
-def get_samtrygg_results():
-    filepath = '/' + scrape_config.SAMTRYGG_DATASTORE_FILENAME
-    with open(filepath) as f:
+@app.route('/get_all_samtrygg_results', methods=['GET'])
+def get_all_samtrygg_results():
+    with open(scrape_config.SAMTRYGG_DATASTORE_FILEPATH) as f:
         json_string = f.read()
         return json_string
 
