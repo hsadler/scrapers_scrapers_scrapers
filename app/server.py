@@ -21,12 +21,19 @@ def ping():
     return jsonify({ 'output': 'hi there' })
 
 
-# get Samtrygg results
+# get all Samtrygg results
 @app.route('/get_all_samtrygg_results', methods=['GET'])
 def get_all_samtrygg_results():
     with open(scrape_config.SAMTRYGG_DATASTORE_FILEPATH) as f:
         json_string = f.read()
         return json_string
+
+
+# get processed Samtrygg results
+@app.route('/get_processed_samtrygg_results', methods=['GET'])
+def get_processed_samtrygg_results():
+    # stub
+    return jsonify({})
 
 
 # run the app if executed as main file to python interpreter
