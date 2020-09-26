@@ -27,7 +27,8 @@ def ping():
 @app.route('/get_all_samtrygg_results', methods=['GET'])
 def get_all_samtrygg_results():
     id_to_listing = ApartmentListingDatastore.get_samtrygg_data()
-    return jsonify(id_to_listing)
+    listings = list(id_to_listing.values())
+    return jsonify(listings)
 
 
 # get processed Samtrygg results

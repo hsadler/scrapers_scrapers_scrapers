@@ -1,3 +1,4 @@
+import json
 import config.scrape_config as scrape_config
 
 
@@ -17,5 +18,5 @@ class ApartmentListingDatastore():
     def get_samtrygg_data():
         # load from json file
         with open(scrape_config.SAMTRYGG_DATASTORE_FILEPATH) as f:
-            return f.json()
+            return json.load(f)
 
