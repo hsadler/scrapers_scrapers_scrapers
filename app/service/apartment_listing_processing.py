@@ -7,9 +7,9 @@ class ApartmentListingProcessing():
     @staticmethod
     def filter_samtrygg_listings(listings):
         # stub
-        pass
+        return listings
 
     @staticmethod
     def rank_samtrygg_listings(listings):
         # stub
-        pass
+        return listings

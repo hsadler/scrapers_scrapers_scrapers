@@ -15,7 +15,7 @@ class ApartmentListingDatastore():
 
     @staticmethod
     def get_samtrygg_data():
-        # stub
-        pass
+        # load from json file
+        with open(scrape_config.SAMTRYGG_DATASTORE_FILEPATH) as f:
+            return f.json()
 
-    
