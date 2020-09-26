@@ -13,5 +13,3 @@ class ApartmentListingProcessing():
     def rank_samtrygg_listings(listings):
         # stub
         pass
-
-    
