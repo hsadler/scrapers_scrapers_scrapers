@@ -6,6 +6,20 @@ X get server running
 X get crond working
 X get basic scraping working
 X finalize scraped data storage placement
+- filtering:
+    - price
+    - rooms
+    - square meters
+    - location
+    - pets
+    - washer and dryer
+    - dishwasher
+- ranking:
+    - newness of listing
+    - price per square meter
+    - optimal room amount
+    - within favorite locations
+    - is furnished
 - data filtering and formatting:
     - samtrygg
     - qasa
