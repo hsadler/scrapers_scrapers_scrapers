@@ -5,11 +5,11 @@ class ApartmentListingProcessing():
 
     
     @staticmethod
-    def filter_samtrygg_listings(listings):
+    def filter_samtrygg_listings(listings, filter_options):
         # stub
         return listings
 
     @staticmethod
-    def rank_samtrygg_listings(listings):
+    def rank_samtrygg_listings(listings, rank_options):
         # stub
         return listings
