@@ -2,7 +2,7 @@
 
 class SamtryggFilterOptions():
     """
-    stub
+    Samtrygg filter options struct
     """
 
     
