@@ -9,6 +9,8 @@ from flask import (
 import config.scrape_config as scrape_config
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
+from model.samtrygg_filter_options import SamtryggFilterOptions
+from model.samtrygg_rank_options import SamtryggRankOptions
 
 
 # init Flask app instance
@@ -34,13 +36,53 @@ def get_all_samtrygg_results():
 # get processed Samtrygg results
 @app.route('/get_processed_samtrygg_results', methods=['GET'])
 def get_processed_samtrygg_results():
+    # fetch listings from datastore
     id_to_listing = ApartmentListingDatastore.get_samtrygg_data()
     listings = list(id_to_listing.values())
-    filtered_listings = ApartmentListingProcessing.filter_samtrygg_listings(
-        listings
+    # filter options
+    price_min = 1000
+    price_max = 2000
+    rooms_min = 3
+    rooms_max = 5
+    sq_meters_min = 70
+    sq_meters_max = 110
+    location_blacklist = ()
+    pets_allowed = True
+    washer_dryer_included = True
+    dishwasher_included = True
+    # instantiate filter options struct
+    filter_options = SamtryggFilterOptions(
+        (price_min, price_max),
+        (rooms_min, rooms_max),
+        (sq_meters_min, sq_meters_max),
+        location_blacklist,
+        pets_allowed,
+        washer_dryer_included,
+        dishwasher_included
     )
+    # filter the listings
+    filtered_listings = ApartmentListingProcessing.filter_samtrygg_listings(
+        listings,
+        filter_options
+    )
+    # rank options
+    listing_freshness_weight = 100
+    price_per_square_meter_weight = 100
+    optimal_room_amount_and_weight = (4, 100)
+    favorite_locations_and_weight = ([], 100)
+    is_furninshed_and_weight = (None, 100)
+    # instantiate rank options struct
+    rank_options = SamtryggRankOptions(
+        listing_freshness_weight,
+        price_per_square_meter_weight,
+        optimal_room_amount_and_weight,
+        favorite_locations_and_weight,
+        is_furninshed_and_weight
+    )
+    # rank the listings
     ranked_listings = ApartmentListingProcessing.rank_samtrygg_listings(
-        filtered_listings
+        filtered_listings,
+        rank_options
     )
     return jsonify(ranked_listings)
 
