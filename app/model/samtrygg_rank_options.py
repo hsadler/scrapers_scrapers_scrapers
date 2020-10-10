@@ -5,6 +5,7 @@ class SamtryggRankOptions():
     Samtrygg rank options struct
     """
 
+
     def __init__(
         self,
         listing_freshness_weight,

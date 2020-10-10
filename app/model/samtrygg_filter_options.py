@@ -5,7 +5,6 @@ class SamtryggFilterOptions():
     Samtrygg filter options struct
     """
 
-    
 
     def __init__(
         self,
