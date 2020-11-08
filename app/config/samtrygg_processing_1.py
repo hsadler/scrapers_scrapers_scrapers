@@ -6,7 +6,39 @@ rooms_min = 3
 rooms_max = 5
 sq_meters_min = 70
 sq_meters_max = 110
-location_blacklist = ()
+city_whitelist = (
+    'Järfälla', 
+    'Kista', 
+    'Solna', 
+    'Sundbyberg', 
+    'Kungsholmen', 
+    'Stadshagen',
+    'Östermalm',
+    'Norrmalm',
+    'Vasastan',
+    'Rådhuset',
+    'Odenplan',
+    'Huvudsta',
+    'Hallonbergen',
+    'Gamla Stan',
+    'Hornstull',
+    'Södermalm',
+    'Ormsaltaren',
+    'Nacka',
+    'Blåsut',
+    'Björkhagen',
+    'Enskede Gård',
+    'Liljeholmen',
+    'Gröndal',
+    'Stjärnhusen',
+    'Bromma',
+    'Bergsryggen',
+    'Alvik',
+    'Kristineberg',
+    'Täby',
+    'Danderyd',
+    'Farsta'
+)
 pets_allowed = True
 washer_dryer_included = True
 dishwasher_included = True

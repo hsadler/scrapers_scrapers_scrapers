@@ -62,16 +62,26 @@ class SamtryggListing():
         amenities = self.raw_listing['AmenityDescription']
         return self.PETS_ALLOWED not in amenities
 
+    def get_city(self):
+        # address = self.raw_listing['FullAddress']
+        # city = address.split(' ')[-2].split(',')[0]
+        city = self.raw_listing['PostalTown']
+        return city
+
     def get_internet_included(self):
+        # stub
         pass
 
     def get_kitchen_included(self):
+        # stub
         pass
 
     def get_shower_included(self):
+        # stub
         pass
 
     def get_is_child_friendly(self):
+        # stub
         pass
 
 
