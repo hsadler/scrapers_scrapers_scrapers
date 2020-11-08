@@ -1,7 +1,9 @@
-import config.scrape_config as scrape_config
+from model.samtrygg_filter_options import SamtryggFilterOptions
+from model.samtrygg_rank_options import SamtryggRankOptions
 
 
 class ApartmentListingProcessing():
+    
     
     @staticmethod
     def filter_samtrygg_listings(listings, filter_options):
@@ -14,7 +16,42 @@ class ApartmentListingProcessing():
                 filtered_listings.append(listing)
         return filtered_listings
 
+    
     @staticmethod
     def rank_samtrygg_listings(listings, rank_options):
         # stub
         return listings
+
+    
+    @staticmethod
+    def get_processed_listings(listings, processing_config):
+        pc = processing_config
+        # instantiate filter options struct
+        filter_options = SamtryggFilterOptions(
+            price_range=(pc.price_min, pc.price_max),
+            rooms_range=(pc.rooms_min, pc.rooms_max),
+            square_meters_range=(pc.sq_meters_min, pc.sq_meters_max),
+            location_blacklist=pc.location_blacklist,
+            pets_allowed=pc.pets_allowed,
+            washer_dryer_included=pc.washer_dryer_included,
+            dishwasher_included=pc.dishwasher_included
+        )
+        # filter the listings
+        filtered_listings = ApartmentListingProcessing.filter_samtrygg_listings(
+            listings,
+            filter_options
+        )
+        # instantiate rank options struct
+        rank_options = SamtryggRankOptions(
+            listing_freshness_weight=pc.listing_freshness_weight,
+            price_per_square_meter_weight=pc.price_per_square_meter_weight,
+            optimal_room_amount_and_weight=pc.optimal_room_amount_and_weight,
+            favorite_locations_and_weight=pc.favorite_locations_and_weight,
+            is_furninshed_and_weight=pc.is_furninshed_and_weight
+        )
+        # rank the listings
+        ranked_listings = ApartmentListingProcessing.rank_samtrygg_listings(
+            filtered_listings,
+            rank_options
+        )
+        return ranked_listings
