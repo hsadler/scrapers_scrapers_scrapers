@@ -10,10 +10,7 @@ A collection of my web scrapers
 ### build the base image
 
 ```sh
-docker build \
-    --no-cache \
-    -f=base.Dockerfile \
-    -t=scrapers_scrapers_scrapers.base:v1 .
+make build
 ```
 
 ### spin-up the container for web scraping
