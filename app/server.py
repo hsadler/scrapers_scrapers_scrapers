@@ -49,7 +49,10 @@ def get_processed_samtrygg_results():
         listing.raw_listing for 
         listing in processed_listings
     ]
-    return jsonify(raw_processed_listings)
+    return jsonify({
+        'result_count': len(raw_processed_listings),
+        'result': raw_processed_listings
+    })
 
 
 # run the app if executed as main file from python interpreter

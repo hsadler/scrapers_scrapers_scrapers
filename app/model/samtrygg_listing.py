@@ -50,7 +50,7 @@ class SamtryggListing():
         price_int = int(price_string.replace(' ', ''))
         return price_int
 
-    def getrooms(self):
+    def get_rooms(self):
         rooms_int = int(self.raw_listing['NoOfRooms'])
         return rooms_int
 

@@ -7,11 +7,20 @@ class ApartmentListingProcessing():
     
     @staticmethod
     def filter_samtrygg_listings(listings, filter_options):
+        # TODO: filtering NOT currently implemented:
+            # location_blacklist
+            # washer_dryer_included
+            # dishwasher_included
         filtered_listings = []
         for listing in listings:
             if (
                 listing.get_price() >= filter_options.price_range[0] and 
-                listing.get_price() <= filter_options.price_range[1]
+                listing.get_price() <= filter_options.price_range[1] and 
+                listing.get_rooms() >= filter_options.rooms_range[0] and
+                listing.get_rooms() <= filter_options.rooms_range[1] and
+                listing.get_sq_meters() >= filter_options.square_meters_range[0] and
+                listing.get_sq_meters() <= filter_options.square_meters_range[1] and
+                listing.get_pets_allowed() == filter_options.pets_allowed
             ):
                 filtered_listings.append(listing)
         return filtered_listings
