@@ -12,6 +12,9 @@ from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
 from model.samtrygg_listing import SamtryggListing
 
+# testing
+import config.secrets_config as secrets_config
+from service.email_report import EmailReport
 
 # init Flask app instance
 app = Flask(
@@ -43,6 +46,15 @@ def get_processed_samtrygg_results():
     processed_listings = ApartmentListingProcessing.get_processed_listings(
         listings=listings, 
         processing_config=samtrygg_processing_config
+    )
+    # test: emailing
+    EmailReport.email_samtrygg_report(
+        sender=secrets_config.email_sender, 
+        password=secrets_config.email_sender_password,
+        recipients=secrets_config.email_recipients,
+        subject=secrets_config.email_subject, 
+        new_listings=[], 
+        all_listings=[]
     )
     # api format
     raw_processed_listings = [
