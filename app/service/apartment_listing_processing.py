@@ -33,7 +33,7 @@ class ApartmentListingProcessing():
 
     
     @staticmethod
-    def get_processed_listings(listings, processing_config):
+    def process_listings(listings, processing_config):
         pc = processing_config
         # instantiate filter options struct
         filter_options = SamtryggFilterOptions(

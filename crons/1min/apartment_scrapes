@@ -1,6 +1,13 @@
 #!/bin/bash
 cd /app/scripts
+
 python scrape_samtrygg.py
+python process_samtrygg.py
+# TODO: activate when ready
+# python email_report_samtrygg.py 
+
 # python scrape_qasa.py
+
 # python scrape_hemnet.py
+
 # python scrape_booli.py

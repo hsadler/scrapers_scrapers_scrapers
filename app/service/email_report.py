@@ -33,7 +33,7 @@ class EmailReport():
         recipients,
         subject, 
         new_listings=[], 
-        all_listings=[]
+        relevant_listings=[]
     ):
         formatted_email_body = 'test samtrygg email body...'
         cls.send_email(

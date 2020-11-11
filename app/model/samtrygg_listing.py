@@ -45,6 +45,9 @@ class SamtryggListing():
     ):
         self.raw_listing = raw_listing
 
+    def get_id(self):
+        return self.raw_listing['ID']
+
     def get_price(self):
         price_string = self.raw_listing['FormatedHGPrice']
         price_int = int(price_string.replace(' ', ''))

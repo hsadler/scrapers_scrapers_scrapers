@@ -7,6 +7,7 @@ from flask import (
     jsonify
 )
 
+import config.scrape_config as scrape_config
 import config.samtrygg_processing_1 as samtrygg_processing_config
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
@@ -31,7 +32,9 @@ def ping():
 # get all Samtrygg results
 @app.route('/get_all_samtrygg_results', methods=['GET'])
 def get_all_samtrygg_results():
-    id_to_listing = ApartmentListingDatastore.get_samtrygg_data()
+    id_to_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_DATASTORE_FILEPATH
+    )
     return jsonify(id_to_listing)
 
 
@@ -39,22 +42,15 @@ def get_all_samtrygg_results():
 @app.route('/get_processed_samtrygg_results', methods=['GET'])
 def get_processed_samtrygg_results():
     # fetch listings from datastore and instantiate listing model objects
-    id_to_listing = ApartmentListingDatastore.get_samtrygg_data()
+    id_to_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_DATASTORE_FILEPATH
+    )
     raw_listings = list(id_to_listing.values())
     listings = [SamtryggListing(raw_listing) for raw_listing in raw_listings]
     # process
-    processed_listings = ApartmentListingProcessing.get_processed_listings(
+    processed_listings = ApartmentListingProcessing.process_listings(
         listings=listings, 
         processing_config=samtrygg_processing_config
-    )
-    # test: emailing
-    EmailReport.email_samtrygg_report(
-        sender=secrets_config.email_sender, 
-        password=secrets_config.email_sender_password,
-        recipients=secrets_config.email_recipients,
-        subject=secrets_config.email_subject, 
-        new_listings=[], 
-        all_listings=[]
     )
     # api format
     raw_processed_listings = [
