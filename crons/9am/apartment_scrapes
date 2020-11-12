@@ -1,9 +1,9 @@
 #!/bin/bash
 cd /app/scripts
 
-# python scrape_samtrygg.py
-# python process_samtrygg.py
-# python email_report_samtrygg.py 
+python scrape_samtrygg.py
+python process_samtrygg.py
+python email_report_samtrygg.py 
 
 # python scrape_qasa.py
 

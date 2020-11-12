@@ -9,10 +9,22 @@ RUN pip install -r /tmp/requirements.txt
 COPY ./app /app
 
 # prepare cron dirs
-RUN mkdir /etc/periodic/1min
+# RUN mkdir /etc/periodic/1min
+# RUN mkdir /etc/periodic/9am
+# RUN mkdir /etc/periodic/1pm
+# RUN mkdir /etc/periodic/6pm
 
-# add 1 minute cron folder to crontab
+# copy cron scripts
+COPY ./crons /etc/periodic/
+
+# add crons to crontab
 RUN echo "* * * * * run-parts /etc/periodic/1min" \
+    >> /etc/crontabs/root
+RUN echo "* 9 * * * run-parts /etc/periodic/9am" \
+    >> /etc/crontabs/root
+RUN echo "* 13 * * * run-parts /etc/periodic/1pm" \
+    >> /etc/crontabs/root
+RUN echo "* 18 * * * run-parts /etc/periodic/6pm" \
     >> /etc/crontabs/root
 
 # set permissions

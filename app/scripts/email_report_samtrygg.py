@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 
 import json
-import config.scrape_config as scrape_config
+import config.secrets_config as secrets_config
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.email_report import EmailReport
 
