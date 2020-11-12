@@ -20,11 +20,12 @@ COPY ./crons /etc/periodic/
 # add crons to crontab
 RUN echo "* * * * * run-parts /etc/periodic/1min" \
     >> /etc/crontabs/root
-RUN echo "* 9 * * * run-parts /etc/periodic/9am" \
+RUN echo "0 8 * * * run-parts /etc/periodic/9am" \
     >> /etc/crontabs/root
-RUN echo "* 13 * * * run-parts /etc/periodic/1pm" \
+RUN echo "0 12 * * * run-parts /etc/periodic/1pm" \
     >> /etc/crontabs/root
-RUN echo "* 18 * * * run-parts /etc/periodic/6pm" \
+# TEST: cron at 9pm SWE
+RUN echo "0 20 * * * run-parts /etc/periodic/6pm" \
     >> /etc/crontabs/root
 
 # set permissions
