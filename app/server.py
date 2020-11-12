@@ -32,35 +32,40 @@ def ping():
 # get all Samtrygg results
 @app.route('/get_all_samtrygg_results', methods=['GET'])
 def get_all_samtrygg_results():
-    id_to_listing = ApartmentListingDatastore.load_samtrygg_data(
+    id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
         scrape_config.SAMTRYGG_DATASTORE_FILEPATH
     )
-    return jsonify(id_to_listing)
+    result = {
+        'result_count': len(id_to_raw_listing),
+        'result': id_to_raw_listing
+    }
+    return jsonify(result)
 
 
 # get processed Samtrygg results
 @app.route('/get_processed_samtrygg_results', methods=['GET'])
 def get_processed_samtrygg_results():
-    # fetch listings from datastore and instantiate listing model objects
-    id_to_listing = ApartmentListingDatastore.load_samtrygg_data(
-        scrape_config.SAMTRYGG_DATASTORE_FILEPATH
+    id_to_processed_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_PROCESSED_DATASTORE_FILEPATH
     )
-    raw_listings = list(id_to_listing.values())
-    listings = [SamtryggListing(raw_listing) for raw_listing in raw_listings]
-    # process
-    processed_listings = ApartmentListingProcessing.process_listings(
-        listings=listings, 
-        processing_config=samtrygg_processing_config
+    result = {
+        'result_count': len(id_to_processed_raw_listing),
+        'result': id_to_processed_raw_listing
+    }
+    return jsonify(result)
+
+
+# get unseen Samtrygg results
+@app.route('/get_unseen_samtrygg_results', methods=['GET'])
+def get_unseen_samtrygg_results():
+    id_to_unseen_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_PROCESSED_UNSEEN_DATASTORE_FILEPATH
     )
-    # api format
-    raw_processed_listings = [
-        listing.raw_listing for 
-        listing in processed_listings
-    ]
-    return jsonify({
-        'result_count': len(raw_processed_listings),
-        'result': raw_processed_listings
-    })
+    result = {
+        'result_count': len(id_to_unseen_raw_listing),
+        'result': id_to_unseen_raw_listing
+    }
+    return jsonify(result)
 
 
 # run the app if executed as main file from python interpreter
