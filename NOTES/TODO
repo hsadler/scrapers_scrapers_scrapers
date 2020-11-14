@@ -1,11 +1,17 @@
 
 TODO:
 
+
+todo:
 X setup docker containerization
 X get server running
 X get crond working
 X get basic scraping working
 X finalize scraped data storage placement
+X get emailing working with cron
+- get samtrygg formatting working for emails
+
+defer: 
 - filtering:
     - price
     - rooms

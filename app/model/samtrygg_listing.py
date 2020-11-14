@@ -48,6 +48,12 @@ class SamtryggListing():
     def get_id(self):
         return self.raw_listing['ID']
 
+    def get_title(self):
+        return self.raw_listing['Headline']
+
+    def get_web_link(self):
+        return 'https://www.samtrygg.se/{}'.format(self.raw_listing['RentalObjectLink'])
+
     def get_price(self):
         price_string = self.raw_listing['FormatedHGPrice']
         price_int = int(price_string.replace(' ', ''))
@@ -66,8 +72,6 @@ class SamtryggListing():
         return self.PETS_ALLOWED not in amenities
 
     def get_city(self):
-        # address = self.raw_listing['FullAddress']
-        # city = address.split(' ')[-2].split(',')[0]
         city = self.raw_listing['PostalTown']
         return city
 
