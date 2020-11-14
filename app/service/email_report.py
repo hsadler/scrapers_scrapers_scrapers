@@ -37,33 +37,29 @@ class EmailReport():
     ):
         email_body_parts = []
         # format new listings
-        email_body_parts.append('NEW LISTINGS:\n')
-        for listing in new_listings:
-            email_body_parts.append(listing.get_title())
-            email_body_parts.append('\t{}'.format(listing.get_web_link()))
-            email_body_parts.append('\tcity: {}'.format(listing.get_city()))
-            email_body_parts.append('\tprice: {}'.format(listing.get_price()))
-            email_body_parts.append('\trooms: {}'.format(listing.get_rooms()))
-            email_body_parts.append('\tsq meters: {}'.format(listing.get_sq_meters()))
-            email_body_parts.append('\n')
+        if(len(new_listings) > 0):
+            email_body_parts.append('NEW LISTINGS:\n')
+            for listing in new_listings:
+                email_body_parts.append(listing.get_title())
+                email_body_parts.append('\t{}'.format(listing.get_web_link()))
+                email_body_parts.append('\tcity: {}'.format(listing.get_city()))
+                email_body_parts.append('\tprice: {}'.format(listing.get_price()))
+                email_body_parts.append('\trooms: {}'.format(listing.get_rooms()))
+                email_body_parts.append('\tsq meters: {}'.format(listing.get_sq_meters()))
+                email_body_parts.append('\n')
         # format relevant listings
-        email_body_parts.append('RELEVANT LISTINGS:\n')
-        for listing in relevant_listings:
-            email_body_parts.append(listing.get_title())
-            email_body_parts.append('\t{}'.format(listing.get_web_link()))
-            email_body_parts.append('\tcity: {}'.format(listing.get_city()))
-            email_body_parts.append('\tprice: {}'.format(listing.get_price()))
-            email_body_parts.append('\trooms: {}'.format(listing.get_rooms()))
-            email_body_parts.append('\tsq meters: {}'.format(listing.get_sq_meters()))
-            email_body_parts.append('\n')
+        if(len(relevant_listings) > 0):
+            email_body_parts.append('RELEVANT LISTINGS:\n')
+            for listing in relevant_listings:
+                email_body_parts.append(listing.get_title())
+                email_body_parts.append('\t{}'.format(listing.get_web_link()))
+                email_body_parts.append('\tcity: {}'.format(listing.get_city()))
+                email_body_parts.append('\tprice: {}'.format(listing.get_price()))
+                email_body_parts.append('\trooms: {}'.format(listing.get_rooms()))
+                email_body_parts.append('\tsq meters: {}'.format(listing.get_sq_meters()))
+                email_body_parts.append('\n')
         # format email body from parts
         formatted_email_body = '\n'.join(email_body_parts)
-        
-        # testing:
-        # print(formatted_email_body)
-        # return
-        # formatted_email_body = 'testing agian...'
-
         # send email
         cls.send_email(
             sender=sender,
