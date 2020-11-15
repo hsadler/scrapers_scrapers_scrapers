@@ -9,9 +9,9 @@ from flask import (
 
 import config.scrape_config as scrape_config
 import config.samtrygg_processing_1 as samtrygg_processing_config
+from model.samtrygg_listing import SamtryggListing
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
-from model.samtrygg_listing import SamtryggListing
 
 # testing
 import config.secrets_config as secrets_config
@@ -66,6 +66,42 @@ def get_unseen_samtrygg_results():
         'result': id_to_unseen_raw_listing
     }
     return jsonify(result)
+
+
+# all results page
+@app.route('/get_all_samtrygg_results_page')
+def get_all_samtrygg_results_page():
+    # load listings
+    id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_DATASTORE_FILEPATH
+    )
+    # instantiate objects
+    listings = []
+    for raw_listing in id_to_raw_listing.values():
+        listings.append(SamtryggListing(raw_listing))
+    # html format
+    html_formatted_listings = []
+    for listing in listings:
+        html_formatted_listings.append(listing.format_html())
+    return '<h1>Listings:</h1><p>{}</p>'.format('<br>'.join(html_formatted_listings))
+
+
+# relevant results page
+@app.route('/get_relevant_samtrygg_results_page')
+def get_relevant_samtrygg_results_page():
+    # load listings
+    id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_PROCESSED_DATASTORE_FILEPATH
+    )
+    # instantiate objects
+    listings = []
+    for raw_listing in id_to_raw_listing.values():
+        listings.append(SamtryggListing(raw_listing))
+    # html format
+    html_formatted_listings = []
+    for listing in listings:
+        html_formatted_listings.append(listing.format_html())
+    return '<h1>Listings:</h1><p>{}</p>'.format('<br>'.join(html_formatted_listings))
 
 
 # run the app if executed as main file from python interpreter

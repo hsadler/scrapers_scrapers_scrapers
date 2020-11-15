@@ -54,6 +54,9 @@ class SamtryggListing():
     def get_web_link(self):
         return 'https://www.samtrygg.se/{}'.format(self.raw_listing['RentalObjectLink'])
 
+    def get_image_url(self):
+        return self.raw_listing['ImageUrl']
+
     def get_price(self):
         price_string = self.raw_listing['FormatedHGPrice']
         price_int = int(price_string.replace(' ', ''))
@@ -90,5 +93,30 @@ class SamtryggListing():
     def get_is_child_friendly(self):
         # stub
         pass
+
+    def get_api_formatted_parts(self):
+        parts = []
+        parts.append(self.get_title())
+        parts.append('{}'.format(self.get_web_link()))
+        parts.append('city: {}'.format(self.get_city()))
+        parts.append('price: {}'.format(self.get_price()))
+        parts.append('rooms: {}'.format(self.get_rooms()))
+        parts.append('sq meters: {}'.format(self.get_sq_meters()))
+        return parts
+
+    def format_html(self):
+        parts = []
+        parts.append('<a href="{}" target="_blank">{}</a>'.format(
+            self.get_web_link(),
+            self.get_title()
+        ))
+        parts.append('<img src="{}" style="height: 200px">'.format(
+            self.get_image_url()
+        ))
+        parts.append('city: {}'.format(self.get_city()))
+        parts.append('price: {}'.format(self.get_price()))
+        parts.append('rooms: {}'.format(self.get_rooms()))
+        parts.append('sq meters: {}'.format(self.get_sq_meters()))
+        return '<br>'.join(parts) + '<br>'
 
 
