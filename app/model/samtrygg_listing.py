@@ -72,7 +72,7 @@ class SamtryggListing():
 
     def get_pets_allowed(self):
         amenities = self.raw_listing['AmenityDescription']
-        return self.PETS_ALLOWED not in amenities
+        return self.PETS_ALLOWED in amenities
 
     def get_city(self):
         city = self.raw_listing['PostalTown']
@@ -117,6 +117,9 @@ class SamtryggListing():
         parts.append('price: {}'.format(self.get_price()))
         parts.append('rooms: {}'.format(self.get_rooms()))
         parts.append('sq meters: {}'.format(self.get_sq_meters()))
+        # parts.append('AmenityDescription: {}'.format(
+        #     ', '.join([str(a) for a in self.raw_listing['AmenityDescription']])
+        # ))
         return '<br>'.join(parts) + '<br>'
 
 

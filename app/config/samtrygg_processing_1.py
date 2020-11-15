@@ -1,10 +1,10 @@
 
 # filter options
 price_min = 10000
-price_max = 20000
+price_max = 22000
 rooms_min = 3
 rooms_max = 5
-sq_meters_min = 70
+sq_meters_min = 50
 sq_meters_max = 110
 city_whitelist = (
     'Järfälla', 
@@ -37,7 +37,8 @@ city_whitelist = (
     'Kristineberg',
     'Täby',
     'Danderyd',
-    'Farsta'
+    'Farsta',
+    'Akalla'
 )
 pets_allowed = True
 washer_dryer_included = True
