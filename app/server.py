@@ -68,7 +68,7 @@ def get_unseen_samtrygg_results():
     return jsonify(result)
 
 
-# all results page
+# all samtrygg listings
 @app.route('/samtrygg/all')
 def get_all_samtrygg_results_page():
     # load listings
@@ -88,7 +88,7 @@ def get_all_samtrygg_results_page():
     )
 
 
-# relevant results page
+# relevant samtrygg listings
 @app.route('/samtrygg/relevant')
 def get_relevant_samtrygg_results_page():
     # load listings
@@ -105,6 +105,27 @@ def get_relevant_samtrygg_results_page():
         html_formatted_listings.append(listing.format_html())
     return '<h1>Relevant Samtrygg Listings:</h1><p>{}</p>'.format(
         '<br>'.join(html_formatted_listings)
+    )
+
+
+# samtrygg listing cities
+@app.route('/samtrygg/cities')
+def get_samtrygg_cities():
+    # load listings
+    id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
+        scrape_config.SAMTRYGG_DATASTORE_FILEPATH
+    )
+    # instantiate objects
+    listings = []
+    for raw_listing in id_to_raw_listing.values():
+        listings.append(SamtryggListing(raw_listing))
+    # html format
+    cities = []
+    for listing in listings:
+        city = listing.get_city()
+        cities.append('<a href="https://www.google.com/maps/search/{} sweden" target="_blank">{}</a>'.format(city, city))
+    return '<h1>All Samtrygg Cities:</h1><p>{}</p>'.format(
+        '<br>'.join(set(cities))
     )
 
 
