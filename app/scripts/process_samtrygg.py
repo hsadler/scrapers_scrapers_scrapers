@@ -27,15 +27,15 @@ processed_id_to_listing = {}
 for listing in processed_listings:
     processed_id_to_listing[listing.get_id()] = listing
 
-# load previously saved processed listings
-old_processed_id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data( 
-    scrape_config.SAMTRYGG_PROCESSED_DATASTORE_FILEPATH
-)
-# compare new processed listings to old and save ones not seen before to file
-unseen_id_to_listing = {}
-for listing_id, listing in processed_id_to_listing.items():
-    if str(listing_id) not in old_processed_id_to_raw_listing:
-        unseen_id_to_listing[listing_id] = listing
+# # load previously saved processed listings
+# old_processed_id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data( 
+#     scrape_config.SAMTRYGG_PROCESSED_DATASTORE_FILEPATH
+# )
+# # compare new processed listings to old and save ones not seen before to file
+# unseen_id_to_listing = {}
+# for listing_id, listing in processed_id_to_listing.items():
+#     if str(listing_id) not in old_processed_id_to_raw_listing:
+#         unseen_id_to_listing[listing_id] = listing
 
 # save processed listings to json file
 processed_id_to_raw_listing = {
@@ -48,11 +48,11 @@ ApartmentListingDatastore.save_samtrygg_data(
 )
 
 # save unseen listings to json file
-unseen_id_to_raw_listing = {
-    key:listing.raw_listing for (key, listing) 
-    in unseen_id_to_listing.items()
-}
-ApartmentListingDatastore.save_samtrygg_data(
-    unseen_id_to_raw_listing, 
-    scrape_config.SAMTRYGG_PROCESSED_UNSEEN_DATASTORE_FILEPATH
-)
+# unseen_id_to_raw_listing = {
+#     key:listing.raw_listing for (key, listing) 
+#     in unseen_id_to_listing.items()
+# }
+# ApartmentListingDatastore.save_samtrygg_data(
+#     unseen_id_to_raw_listing, 
+#     scrape_config.SAMTRYGG_PROCESSED_UNSEEN_DATASTORE_FILEPATH
+# )

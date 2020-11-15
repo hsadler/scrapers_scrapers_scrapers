@@ -69,7 +69,7 @@ def get_unseen_samtrygg_results():
 
 
 # all results page
-@app.route('/get_all_samtrygg_results_page')
+@app.route('/samtrygg/all')
 def get_all_samtrygg_results_page():
     # load listings
     id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
@@ -83,11 +83,13 @@ def get_all_samtrygg_results_page():
     html_formatted_listings = []
     for listing in listings:
         html_formatted_listings.append(listing.format_html())
-    return '<h1>Listings:</h1><p>{}</p>'.format('<br>'.join(html_formatted_listings))
+    return '<h1>All Samtrygg Listings:</h1><p>{}</p>'.format(
+        '<br>'.join(html_formatted_listings)
+    )
 
 
 # relevant results page
-@app.route('/get_relevant_samtrygg_results_page')
+@app.route('/samtrygg/relevant')
 def get_relevant_samtrygg_results_page():
     # load listings
     id_to_raw_listing = ApartmentListingDatastore.load_samtrygg_data(
@@ -101,7 +103,9 @@ def get_relevant_samtrygg_results_page():
     html_formatted_listings = []
     for listing in listings:
         html_formatted_listings.append(listing.format_html())
-    return '<h1>Listings:</h1><p>{}</p>'.format('<br>'.join(html_formatted_listings))
+    return '<h1>Relevant Samtrygg Listings:</h1><p>{}</p>'.format(
+        '<br>'.join(html_formatted_listings)
+    )
 
 
 # run the app if executed as main file from python interpreter

@@ -10,6 +10,7 @@ X get basic scraping working
 X finalize scraped data storage placement
 X get emailing working with cron
 X get samtrygg formatting working for emails
+- convert to serve results with html
 
 defer: 
 - filtering:
