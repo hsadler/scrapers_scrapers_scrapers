@@ -11,30 +11,5 @@ X finalize scraped data storage placement
 X get emailing working with cron
 X get samtrygg formatting working for emails
 X convert to serve results with html
-
-defer: 
-- filtering:
-    - price
-    - rooms
-    - square meters
-    - location
-    - pets
-    - washer and dryer
-    - dishwasher
-- ranking:
-    - freshness of listing
-    - price per square meter
-    - optimal room amount
-    - within favorite locations
-    - is furnished
-- data filtering and formatting:
-    - samtrygg
-    - qasa
-    - hemnet
-    - booli
-- emailing:
-    - samtrygg
-    - qasa
-    - hemnet
-    - booli
-- setup cronjobs for desired scrapes
+X get basic blocket scrape working
+- get blocket results filtering working

@@ -1,0 +1,36 @@
+
+
+blocket curls
+
+
+curl 'https://api.qasa.se/v1/homes/search' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json' \
+  -H 'X-Brand: blocket' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://bostad.blocket.se' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://bostad.blocket.se/' \
+  -H 'Accept-Language: en-US,en;q=0.9,ko;q=0.8,hr;q=0.7,sv;q=0.6' \
+  --data-binary '{"minRoomCount":"3","maxRoomCount":null,"maxRent":"22000","currency":null,"minRentalLength":"15552000","maxRentalLength":"41472000","minSquareMeters":"50","moveInEarliest":null,"moveOutEarliest":null,"moveOutLatest":null,"sharedHomeOk":false,"hasPets":true,"requiresWheelchairAccessible":false,"furnished":"furnished_both","safeRental":false,"homeType":["apartment","loft"],"matchingArea":null,"commuteLocation":{"shortName":null,"searchString":null,"latitude":null,"longitude":null,"placeId":56,"country":"Sweden","countryCode":"SE"},"areaId":56,"helper":{},"maxRentSek":"22000","maxRentEur":2200,"maxRentCurrency":"SEK","token":"06e64aa419c6d37a1ea6fd4859fc2546","page":1,"perPage":50}' \
+  --compressed
+
+
+
+curl 'https://api.qasa.se/v1/homes/search' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json' \
+  -H 'X-Brand: blocket' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://bostad.blocket.se' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://bostad.blocket.se/' \
+  -H 'Accept-Language: en-US,en;q=0.9,ko;q=0.8,hr;q=0.7,sv;q=0.6' \
+  --data-binary '{"minRoomCount":"3","maxRoomCount":null,"maxRent":"24000","currency":null,"minRentalLength":"2592000","maxRentalLength":"62208000","minSquareMeters":"50","moveInEarliest":"2020-12-01","moveOutEarliest":null,"moveOutLatest":null,"sharedHomeOk":false,"hasPets":false,"requiresWheelchairAccessible":false,"furnished":"furnished_both","safeRental":false,"homeType":["apartment","terrace_house","loft","duplex"],"matchingArea":null,"commuteLocation":{"shortName":null,"searchString":null,"latitude":null,"longitude":null,"placeId":56,"country":"Sweden","countryCode":"SE"},"areaId":56,"helper":{},"maxRentSek":"24000","maxRentEur":2400,"maxRentCurrency":"SEK","token":"06e64aa419c6d37a1ea6fd4859fc2546","page":1,"perPage":50}' \
+  --compressed
