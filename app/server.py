@@ -7,6 +7,7 @@ from flask import (
 )
 import config.scrape_config as scrape_config
 import config.samtrygg_processing_1 as samtrygg_processing_config
+import config.blocket_scrape_config as blocket_scrape_config
 from model.samtrygg_listing import SamtryggListing
 from service.scrape import Scrape
 from service.apartment_listing_datastore import ApartmentListingDatastore
@@ -92,8 +93,14 @@ def get_samtrygg_cities():
 # relevant blocket json
 @app.route('/blocket/relevant/json')
 def get_relevant_blocket_results_json():
-    scrape_result_json = Scrape.scrape_blocket()
-    return scrape_result_json
+    scrape_results = Scrape.scrape_blocket(config=blocket_scrape_config)
+    return jsonify(scrape_results)
+
+
+# relevant blocket listings
+@app.route('/blocket/relevant')
+def get_relevant_blocket_results_page():
+    return 'TODO: implement!'
 
 
 # run the app if executed as main file from python interpreter

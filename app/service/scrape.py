@@ -1,6 +1,6 @@
 import json
 import requests
-import config.scrape_config as scrape_config
+import time
 
 
 class Scrape():
@@ -9,8 +9,8 @@ class Scrape():
     # SAMTRYGG
 
     @staticmethod
-    def scrape_samtrygg_api(search=None):
-        req_url = scrape_config.SAMTRYGG_JSON_API_URL
+    def scrape_samtrygg_api(config, search=None):
+        req_url = config.SAMTRYGG_JSON_API_URL
         if search is not None:
             req_url += ('?search=' + search)
         res = requests.get(req_url)
@@ -27,8 +27,8 @@ class Scrape():
 
     # BLOCKET
 
-    @staticmethod
-    def scrape_blocket():
+    @classmethod
+    def scrape_blocket(cls, config):
         # TODO:
             # 1. call search api (maybe multiple times for different municipalities)
             # 2. collect listing_ids
@@ -37,39 +37,57 @@ class Scrape():
             # 5. filter listings
             # 6. return filtered listings
             # NOTE: add config object as arg
-        # call blocket search api
+        # make calls to blocket search api
+        blocket_raw_search_results = cls.scrape_blocket_search(config)
+        # TEST: return
+        return blocket_raw_search_results
+
+    @classmethod
+    def scrape_blocket_search(cls, config):
+        agg_results = []
+        for search_area in config.SEARCH_AREAS:
+            post_data = cls.compose_blocket_post_data_for_search(
+                config,
+                search_area
+            )
+            res = requests.post(
+                url=config.SEARCH_JSON_API_URL, 
+                data=json.dumps(post_data), 
+                headers=config.JSON_API_HEADERS
+            )
+            agg_results.append({
+                "result": res.json(),
+                "post_data": post_data
+            })
+            time.sleep(1)
+        return agg_results
+
+    @classmethod
+    def scrape_blocket_listing(cls, config):
+        # TODO: impl stub
+        pass
+
+    @classmethod
+    def compose_blocket_post_data_for_search(cls, config, search_area):
         blocket_search_post_data = {
-            "minRoomCount":"3",
-            "maxRoomCount":None,
-            "maxRent":"24000",
+            "minRoomCount": config.SEARCH_PARAMS['min_room_count'],
+            "maxRoomCount": config.SEARCH_PARAMS['max_room_count'],
+            "maxRent": config.SEARCH_PARAMS['max_rent'],
             "currency":None,
-            "minRentalLength":"2592000",
-            "maxRentalLength":"62208000",
-            "minSquareMeters":"50",
-            "moveInEarliest":"2020-12-01",
-            "moveOutEarliest":None,
+            "minRentalLength": config.SEARCH_PARAMS['min_rental_length'],
+            "maxRentalLength": config.SEARCH_PARAMS['max_rental_length'],
+            "minSquareMeters": config.SEARCH_PARAMS['min_square_meters'],
+            "moveInEarliest": config.SEARCH_PARAMS['move_in_earliest'],
+            "moveOutEarliest": config.SEARCH_PARAMS['move_out_earliest'],
             "moveOutLatest":None,
             "sharedHomeOk":False,
-            "hasPets":True,
+            "hasPets": config.SEARCH_PARAMS['has_pets'],
             "requiresWheelchairAccessible":False,
             "furnished":"furnished_both",
             "safeRental":False,
-            "homeType":[
-                "apartment",
-                "terrace_house",
-                "loft",
-                "duplex"
-            ],
-            "matchingArea":None,
-            "commuteLocation":{
-                "shortName": None,
-                "searchString": None,
-                "latitude":None,
-                "longitude":None,
-                "placeId":56,
-                "country":"Sweden",
-                "countryCode":"SE"
-            },
+            "homeType": config.SEARCH_PARAMS['home_type'],
+            "matchingArea": search_area['matching_area'],
+            "commuteLocation": search_area['commute_location'],
             "areaId":56,
             "helper":{},
             "maxRentSek":"24000",
@@ -79,13 +97,7 @@ class Scrape():
             "page":1,
             "perPage":50
         }
-        res = requests.post(
-            url=scrape_config.BLOCKET_SEARCH_JSON_API_URL, 
-            data=json.dumps(blocket_search_post_data), 
-            headers=scrape_config.BLOCKET_JSON_API_HEADERS
-        )
-        # return json for now
-        return res.json()
+        return blocket_search_post_data
 
 
     # QASA

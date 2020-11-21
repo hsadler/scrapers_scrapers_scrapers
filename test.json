@@ -1,0 +1,3508 @@
+{
+   "similarHomes" : [
+      {
+         "homeType" : "apartment",
+         "inContactCount" : 0,
+         "origin" : null,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "id" : 21962,
+         "matchingCount" : 374,
+         "roomCount" : 2,
+         "squareMeters" : 55,
+         "studentHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/hagagatan-stockholm/21962",
+            "fi" : "https://bostad.blocket.se/rent/apartment/hagagatan-stockholm/21962",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/hagagatan-stockholm/21962",
+            "en" : "https://bostad.blocket.se/rent/apartment/hagagatan-stockholm/21962"
+         },
+         "corporateHome" : false,
+         "location" : {
+            "route" : "Hagagatan",
+            "formattedAddress" : "Hagagatan, Stockholm, Sverige",
+            "placeId" : "ChIJD77l_XGdX0YRTIKkN_SmRvU",
+            "postalCode" : "113 47",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0505964",
+            "country" : "Sverige",
+            "latitude" : "59.3467355",
+            "shortName" : null,
+            "streetNumber" : "52"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : "2021-01-31T00:00:00.000Z",
+               "asap" : false
+            }
+         },
+         "professional" : false,
+         "rent" : 15000,
+         "userUid" : "iwqyvefg",
+         "homeStatus" : "normal",
+         "applicationCount" : 42,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 1,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/659a7eab0ec6f0399399bb6ffadb69b626220d07bc5da3551d78f727d6e1a3c9.jpg",
+               "title" : "image3 2.JPG",
+               "id" : 249218
+            }
+         ],
+         "landlordApplicationId" : null,
+         "declinedCount" : 0,
+         "safeRental" : false,
+         "adPaidAt" : "2020-11-07T12:31:12.391Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 15962,
+         "fee" : 750
+      },
+      {
+         "landlordApplicationId" : null,
+         "fee" : 825,
+         "declinedCount" : 140,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "recommendedRent" : 13438,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "professional" : false,
+         "location" : {
+            "shortName" : null,
+            "streetNumber" : "10",
+            "latitude" : "59.3123891",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0266295",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "117 61",
+            "formattedAddress" : "Liljeholmsvägen, Stockholm, Sverige",
+            "placeId" : "ChIJj18hM8Z3X0YRtKUSr4cw_Zo",
+            "route" : "Liljeholmsvägen"
+         },
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "rent" : 16500,
+         "userUid" : "gmqwpnw8",
+         "applicationCount" : 276,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 6
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80ea8b0bdc098d331d5b558552b32ad806039f1a4c97896d1c791727a03d7577.jpg",
+               "title" : "2ea609bb-de32-4ed5-8aef-063820b35531.jpg",
+               "id" : 613195
+            }
+         ],
+         "homeStatus" : "normal",
+         "roomCount" : 2,
+         "matchingCount" : 1058,
+         "links" : {
+            "en" : "https://en.qasa.se/rent/apartment/liljeholmsvagen-stockholm/42246",
+            "sv" : "https://qasa.se/hyra/lagenhet/liljeholmsvagen-stockholm/42246",
+            "fi" : "https://en.qasa.se/rent/apartment/liljeholmsvagen-stockholm/42246",
+            "fr" : "https://en.qasa.se/rent/apartment/liljeholmsvagen-stockholm/42246"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 63,
+         "studentHome" : false,
+         "origin" : null,
+         "inContactCount" : 107,
+         "homeType" : "apartment",
+         "id" : 42246,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false
+      },
+      {
+         "origin" : null,
+         "inContactCount" : 23,
+         "homeType" : "apartment",
+         "id" : 91651,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "roomCount" : 2,
+         "matchingCount" : 844,
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/karlaplan-stockholm/91651",
+            "fr" : "https://bostad.blocket.se/rent/apartment/karlaplan-stockholm/91651",
+            "en" : "https://bostad.blocket.se/rent/apartment/karlaplan-stockholm/91651",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/karlaplan-stockholm/91651"
+         },
+         "studentHome" : false,
+         "squareMeters" : 43,
+         "rent" : 18000,
+         "userUid" : "54e6of8w",
+         "location" : {
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0907859",
+            "shortName" : null,
+            "streetNumber" : "19",
+            "latitude" : "59.3395055",
+            "formattedAddress" : "Karlaplan 19B, 115 20 Stockholm, Sverige",
+            "placeId" : "ChIJyVE9GE-dX0YRPqwcrxGHTko",
+            "route" : "Karlaplan",
+            "sublocality" : null,
+            "postalCode" : "11520",
+            "locality" : "Stockholm"
+         },
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "professional" : true,
+         "applicationCount" : 40,
+         "uploads" : [
+            {
+               "id" : 1102295,
+               "title" : "1.jpeg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8cc0904ae8c711ec20bf41ddb2afe00c44fb810ad067deba4d83f796372f2d3.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 900,
+         "adPaidAt" : null,
+         "safeRental" : false,
+         "recommendedRent" : 16134,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 17
+      },
+      {
+         "inContactCount" : 0,
+         "homeType" : "other",
+         "origin" : null,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : true,
+         "id" : 109390,
+         "matchingCount" : 231,
+         "roomCount" : 1,
+         "studentHome" : false,
+         "squareMeters" : 30,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/home/juniorsvit-elite-hotel-arcadia-stockholm/109390",
+            "fi" : "https://bostad.blocket.se/rent/home/juniorsvit-elite-hotel-arcadia-stockholm/109390",
+            "en" : "https://bostad.blocket.se/rent/home/juniorsvit-elite-hotel-arcadia-stockholm/109390",
+            "sv" : "https://bostad.blocket.se/hyra/bostad/juniorsvit-elite-hotel-arcadia-stockholm/109390"
+         },
+         "rent" : 17995,
+         "userUid" : "fzqx2s2r",
+         "location" : {
+            "formattedAddress" : "Körsbärsvägen 1, 114 23 Stockholm, Sverige",
+            "placeId" : "ChIJNebXc2udX0YR3nsY2CGkvSI",
+            "route" : "Juniorsvit, Elite Hotel Arcadia",
+            "sublocality" : null,
+            "postalCode" : "11423",
+            "locality" : "Stockholm",
+            "country" : "Sverige",
+            "longitude" : "18.0644635",
+            "countryCode" : "SE",
+            "streetNumber" : "1",
+            "shortName" : null,
+            "latitude" : "59.348428"
+         },
+         "professional" : true,
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "optimal" : "2021-01-15T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "homeStatus" : "normal",
+         "applicationCount" : 0,
+         "uploads" : [
+            {
+               "title" : "elite-arcadia-stockholm-juniorsvit.jpg",
+               "id" : 1250862,
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b1c08cbdc897eb46a996e3cf35a78dbf2536a3d0d3148459d7e8f76793d291eb.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "landlordApplicationId" : null,
+         "seniorHome" : false,
+         "safeRental" : false,
+         "adPaidAt" : null,
+         "firsthand" : false,
+         "recommendedRent" : 11868,
+         "declinedCount" : 0,
+         "fee" : 900
+      },
+      {
+         "origin" : null,
+         "inContactCount" : 57,
+         "homeType" : "apartment",
+         "id" : 109820,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "roomCount" : 1.5,
+         "matchingCount" : 367,
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/svarvargatan-stockholm/109820",
+            "en" : "https://bostad.blocket.se/rent/apartment/svarvargatan-stockholm/109820",
+            "fr" : "https://bostad.blocket.se/rent/apartment/svarvargatan-stockholm/109820",
+            "fi" : "https://bostad.blocket.se/rent/apartment/svarvargatan-stockholm/109820"
+         },
+         "studentHome" : false,
+         "squareMeters" : 40,
+         "userUid" : "qku8y989",
+         "rent" : 17900,
+         "professional" : false,
+         "location" : {
+            "countryCode" : "SE",
+            "longitude" : "18.0292232",
+            "country" : "Sverige",
+            "latitude" : "59.336827",
+            "streetNumber" : "20",
+            "shortName" : null,
+            "route" : "Svarvargatan",
+            "formattedAddress" : "Svarvargatan 20, 112 49 Stockholm, Sverige",
+            "placeId" : "ChIJM5Je236dX0YR_0v0W5fEjlM",
+            "locality" : "Stockholm",
+            "postalCode" : "11249",
+            "sublocality" : null
+         },
+         "duration" : {
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "applicationCount" : 209,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f636a8218310f013d06b2f3422a6f793ad7883d840c4b54b36da52bf204019cb.jpg",
+               "metadata" : {
+                  "primary" : false,
+                  "order" : null,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "title" : "A8A59B23-B27B-4B35-B7BC-0D8AF5567C4C.jpeg",
+               "id" : 1254701
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 895,
+         "recommendedRent" : 13179,
+         "safeRental" : false,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 75
+      },
+      {
+         "userUid" : "382eo3ol",
+         "rent" : 15000,
+         "location" : {
+            "locality" : "Stockholm ",
+            "postalCode" : "11262",
+            "sublocality" : null,
+            "route" : "Luxgatan 4",
+            "formattedAddress" : "Luxgatan 4, 112 62 Stockholm, Sverige",
+            "placeId" : "ChIJ4wgSCC12X0YRKmwWKF2wU4g",
+            "latitude" : "59.3251545",
+            "streetNumber" : "4",
+            "shortName" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0093551",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "optimal" : "2021-01-01T00:00:00.000Z",
+               "ufn" : false
+            },
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            }
+         },
+         "applicationCount" : 35,
+         "uploads" : [],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 750,
+         "safeRental" : true,
+         "recommendedRent" : 16293,
+         "adPaidAt" : "2020-06-30T16:42:36.234Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 0,
+         "origin" : null,
+         "inContactCount" : 19,
+         "homeType" : "apartment",
+         "id" : 152617,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "roomCount" : 2,
+         "matchingCount" : 1183,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/152617",
+            "fi" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/152617",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/luxgatan-4-stockholm/152617",
+            "en" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/152617"
+         },
+         "studentHome" : false,
+         "squareMeters" : 65
+      },
+      {
+         "roomCount" : 2,
+         "matchingCount" : 471,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/dalagatan-stockholm/159229",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/dalagatan-stockholm/159229",
+            "fi" : "https://bostad.blocket.se/rent/apartment/dalagatan-stockholm/159229",
+            "fr" : "https://bostad.blocket.se/rent/apartment/dalagatan-stockholm/159229"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 60,
+         "studentHome" : false,
+         "origin" : null,
+         "inContactCount" : 8,
+         "homeType" : "apartment",
+         "id" : 159229,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "landlordApplicationId" : null,
+         "fee" : 895,
+         "declinedCount" : 2,
+         "recommendedRent" : 16421,
+         "safeRental" : false,
+         "adPaidAt" : "2020-07-18T18:22:05.087Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "professional" : false,
+         "location" : {
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "11361",
+            "placeId" : "ChIJzcZAQWSdX0YReOHDZFKrqyQ",
+            "formattedAddress" : "Dalagatan 8, 111 23 Stockholm, Sverige",
+            "route" : "Dalagatan",
+            "shortName" : null,
+            "streetNumber" : "8",
+            "latitude" : "59.3366982",
+            "country" : "Sverige",
+            "longitude" : "18.050762",
+            "countryCode" : "SE"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "userUid" : "yufef5eg",
+         "rent" : 17900,
+         "applicationCount" : 19,
+         "uploads" : [],
+         "homeStatus" : "normal"
+      },
+      {
+         "studentHome" : false,
+         "squareMeters" : 67,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/175834",
+            "fi" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/175834",
+            "en" : "https://bostad.blocket.se/rent/apartment/luxgatan-4-stockholm/175834",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/luxgatan-4-stockholm/175834"
+         },
+         "matchingCount" : 1270,
+         "roomCount" : 2,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 175834,
+         "homeType" : "apartment",
+         "inContactCount" : 23,
+         "origin" : null,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 16408,
+         "declinedCount" : 0,
+         "fee" : 750,
+         "landlordApplicationId" : null,
+         "homeStatus" : "normal",
+         "applicationCount" : 38,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e51294df8d69cf8b3e49a57a179ec790705f98ed2c6b810098b6f3914d6d67b.jpg",
+               "metadata" : {
+                  "primary" : false,
+                  "rotation" : null,
+                  "order" : null
+               },
+               "uploadType" : "home_picture",
+               "title" : "20200827_121927.jpg",
+               "id" : 1855066
+            }
+         ],
+         "rent" : 15000,
+         "userUid" : "382eo3ol",
+         "location" : {
+            "longitude" : "18.0093551",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "latitude" : "59.3251545",
+            "streetNumber" : "4",
+            "shortName" : null,
+            "route" : "Luxgatan 4",
+            "placeId" : "ChIJ4wgSCC12X0YRKmwWKF2wU4g",
+            "formattedAddress" : "Luxgatan 4, 112 62 Stockholm, Sverige",
+            "locality" : "Stockholm ",
+            "postalCode" : "11262",
+            "sublocality" : null
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         }
+      },
+      {
+         "id" : 175860,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "origin" : null,
+         "inContactCount" : 30,
+         "homeType" : "apartment",
+         "links" : {
+            "sv" : "https://qasa.se/hyra/lagenhet/birkagatan-stockholm/175860",
+            "en" : "https://en.qasa.se/rent/apartment/birkagatan-stockholm/175860",
+            "fi" : "https://en.qasa.se/rent/apartment/birkagatan-stockholm/175860",
+            "fr" : "https://en.qasa.se/rent/apartment/birkagatan-stockholm/175860"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 42,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 741,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9afe4d97e1693790c146d3174b61bef03e1eafd1d36e3ad1ff1a52aa2f843efa.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : false,
+                  "rotation" : null,
+                  "order" : null
+               },
+               "id" : 1855228,
+               "title" : "BC3D01F9-EB8E-4BE8-9AE2-7F5622B18B42.jpeg"
+            }
+         ],
+         "applicationCount" : 59,
+         "homeStatus" : "normal",
+         "professional" : false,
+         "location" : {
+            "sublocality" : null,
+            "postalCode" : "11336",
+            "locality" : "Stockholm",
+            "formattedAddress" : "Birkagatan 15, 113 36 Stockholm, Sverige",
+            "placeId" : "ChIJPUkZeHmdX0YRlSeZkvZmsAw",
+            "route" : "Birkagatan",
+            "shortName" : null,
+            "streetNumber" : "15",
+            "latitude" : "59.3400091",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0344124"
+         },
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "userUid" : "5a330yzl",
+         "rent" : 17500,
+         "fee" : 875,
+         "declinedCount" : 1,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 14969,
+         "landlordApplicationId" : null
+      },
+      {
+         "location" : {
+            "placeId" : "ChIJX172zWmdX0YR7Ai8zGFcZ7w",
+            "formattedAddress" : "Birger Jarlsgatan, Stockholm, Sverige",
+            "route" : "Birger Jarlsgatan",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "114 20",
+            "country" : "Sverige",
+            "longitude" : "18.0655154",
+            "countryCode" : "SE",
+            "streetNumber" : "114",
+            "shortName" : null,
+            "latitude" : "59.3413505"
+         },
+         "professional" : true,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "rent" : 16100,
+         "userUid" : "mccdc3nm",
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : null,
+                  "rotation" : null,
+                  "primary" : false
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ad333a590d632157459d112ebba1a05d5437a4e420963cf760caca075f8bc97.jpg",
+               "fileType" : "image",
+               "id" : 1912204,
+               "title" : "11.jpg"
+            }
+         ],
+         "applicationCount" : 32,
+         "landlordApplicationId" : null,
+         "declinedCount" : 0,
+         "adPaidAt" : "2020-09-10T08:14:18.461Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 15962,
+         "fee" : 805,
+         "inContactCount" : 31,
+         "homeType" : "apartment",
+         "origin" : null,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "id" : 181864,
+         "matchingCount" : 511,
+         "roomCount" : 2,
+         "squareMeters" : 55,
+         "studentHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/birger-jarlsgatan-stockholm/181864",
+            "en" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/181864",
+            "fi" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/181864",
+            "fr" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/181864"
+         },
+         "corporateHome" : false
+      },
+      {
+         "roomCount" : 2,
+         "matchingCount" : 539,
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/drottningholmsvagen-stockholm/187670",
+            "en" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/187670",
+            "fr" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/187670",
+            "fi" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/187670"
+         },
+         "studentHome" : false,
+         "squareMeters" : 53,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 25,
+         "id" : 187670,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "landlordApplicationId" : null,
+         "fee" : 825,
+         "recommendedRent" : 15602,
+         "safeRental" : false,
+         "adPaidAt" : "2020-09-25T16:34:40.814Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 0,
+         "userUid" : "mhb5bteo",
+         "rent" : 16500,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "location" : {
+            "shortName" : null,
+            "streetNumber" : "78",
+            "latitude" : "59.3318329",
+            "country" : "Sverige",
+            "longitude" : "18.0151826",
+            "countryCode" : "SE",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "11243",
+            "formattedAddress" : "Drottningholmsvägen 78, 112 43 Stockholm, Sverige",
+            "placeId" : "ChIJCZ0M-ip2X0YRpZoeF3K7t9c",
+            "route" : "Drottningholmsvägen"
+         },
+         "professional" : false,
+         "applicationCount" : 27,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 1
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3cf7ed716d3df7e834d567afe93da6824460403de570ee08257d6cf4e165d8f9.jpg",
+               "title" : "bild 12.jpg",
+               "id" : 1969901
+            }
+         ],
+         "homeStatus" : "normal"
+      },
+      {
+         "id" : 188626,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 20,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/kungsbro-strand-stockholm/188626",
+            "fr" : "https://bostad.blocket.se/rent/apartment/kungsbro-strand-stockholm/188626",
+            "en" : "https://bostad.blocket.se/rent/apartment/kungsbro-strand-stockholm/188626",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/kungsbro-strand-stockholm/188626"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 40,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 134,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 3,
+                  "primary" : true
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/039f694d7b823d55e6a5e69ab8f09895d64af3e385c697aa667463377157d129.jpg",
+               "id" : 1978736,
+               "title" : "eb12a1e5fd56265e8b72f0b006f64ec6.jpg"
+            }
+         ],
+         "applicationCount" : 20,
+         "homeStatus" : "normal",
+         "professional" : true,
+         "location" : {
+            "latitude" : "59.3310033",
+            "streetNumber" : "17",
+            "shortName" : null,
+            "longitude" : "18.0505887",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "locality" : "Stockholm",
+            "postalCode" : "112 26",
+            "sublocality" : null,
+            "route" : "Kungsbro strand",
+            "formattedAddress" : "Kungsbro strand, Stockholm, Sverige",
+            "placeId" : "ChIJLbuTjmGdX0YRTgxwWToR0yw"
+         },
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "optimal" : "2021-05-31T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "rent" : 15500,
+         "userUid" : "mccdc3nm",
+         "fee" : 775,
+         "declinedCount" : 0,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : "2020-09-28T13:16:05.652Z",
+         "recommendedRent" : 14854,
+         "firsthand" : false,
+         "landlordApplicationId" : null
+      },
+      {
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/smedsbacksgatan-stockholm/189097",
+            "fr" : "https://bostad.blocket.se/rent/apartment/smedsbacksgatan-stockholm/189097",
+            "en" : "https://bostad.blocket.se/rent/apartment/smedsbacksgatan-stockholm/189097",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/smedsbacksgatan-stockholm/189097"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 48,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 179,
+         "id" : 189097,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 3,
+         "fee" : 863,
+         "declinedCount" : 4,
+         "safeRental" : false,
+         "adPaidAt" : "2020-09-29T14:22:40.141Z",
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 16639,
+         "landlordApplicationId" : null,
+         "uploads" : [
+            {
+               "id" : 1982887,
+               "title" : "33.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : false,
+                  "rotation" : null,
+                  "order" : null
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3495a6226f6e2e2709e7dc6d9e048166ec2518f2c36bd4b5b9a10acbba02ace1.jpg"
+            }
+         ],
+         "applicationCount" : 7,
+         "homeStatus" : "normal",
+         "duration" : {
+            "end" : {
+               "optimal" : "2021-04-19T00:00:00.000Z",
+               "ufn" : false
+            },
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            }
+         },
+         "location" : {
+            "route" : "Smedsbacksgatan ",
+            "formattedAddress" : "Smedsbacksgatan 8, 115 39 Stockholm, Sverige",
+            "placeId" : "ChIJZflHazadX0YR8pkxGeUlh_g",
+            "locality" : "Stockholm",
+            "postalCode" : "115 39",
+            "sublocality" : null,
+            "longitude" : "18.1007266",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "latitude" : "59.347177",
+            "shortName" : null,
+            "streetNumber" : "8"
+         },
+         "professional" : true,
+         "rent" : 17250,
+         "userUid" : "mccdc3nm"
+      },
+      {
+         "fee" : 850,
+         "seniorHome" : false,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "recommendedRent" : 18423,
+         "firsthand" : false,
+         "declinedCount" : 16,
+         "landlordApplicationId" : null,
+         "applicationCount" : 38,
+         "uploads" : [
+            {
+               "title" : "V 1 1 DSC_0891.jpg",
+               "id" : 1996542,
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/18c7179ba1ac1fa3abcc72b1e1cbc19640e4afb5257d6a0d516310d02b123ffa.jpg",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "uploadType" : "home_picture"
+            }
+         ],
+         "homeStatus" : "normal",
+         "userUid" : "9iv5aiwo",
+         "rent" : 17000,
+         "professional" : false,
+         "location" : {
+            "postalCode" : "11346",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "route" : "Sveavägen ",
+            "formattedAddress" : "Sveavägen 133, 113 46 Stockholm, Sverige",
+            "placeId" : "ChIJN9qkbnKdX0YRr4DNQEfzrEY",
+            "latitude" : "59.3487438",
+            "shortName" : null,
+            "streetNumber" : "133",
+            "countryCode" : "SE",
+            "longitude" : "18.0506271",
+            "country" : "Sverige"
+         },
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://en.qasa.se/rent/apartment/sveavagen-stockholm/190549",
+            "fr" : "https://en.qasa.se/rent/apartment/sveavagen-stockholm/190549",
+            "en" : "https://en.qasa.se/rent/apartment/sveavagen-stockholm/190549",
+            "sv" : "https://qasa.se/hyra/lagenhet/sveavagen-stockholm/190549"
+         },
+         "studentHome" : false,
+         "squareMeters" : 72,
+         "roomCount" : 2.5,
+         "matchingCount" : 577,
+         "id" : 190549,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "origin" : null,
+         "inContactCount" : 22,
+         "homeType" : "apartment"
+      },
+      {
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 190880,
+         "homeType" : "apartment",
+         "inContactCount" : 11,
+         "origin" : null,
+         "studentHome" : false,
+         "squareMeters" : 52,
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/madangsgatan-stockholm/190880",
+            "en" : "https://bostad.blocket.se/rent/apartment/madangsgatan-stockholm/190880",
+            "fr" : "https://bostad.blocket.se/rent/apartment/madangsgatan-stockholm/190880",
+            "fi" : "https://bostad.blocket.se/rent/apartment/madangsgatan-stockholm/190880"
+         },
+         "matchingCount" : 392,
+         "roomCount" : 2,
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d4bb589ef79aa2acff400d9f3cbdb161519e099b10841d0021228cb4ab9a46b7.jpg",
+               "fileType" : "image",
+               "metadata" : {
+                  "order" : 1,
+                  "rotation" : null,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture",
+               "title" : "Vardagsrum.jpg",
+               "id" : 1999856
+            }
+         ],
+         "applicationCount" : 89,
+         "userUid" : "ug20g92p",
+         "rent" : 15500,
+         "location" : {
+            "sublocality" : null,
+            "postalCode" : "115 49",
+            "locality" : "Stockholm",
+            "placeId" : "ChIJEaLPVjmdX0YRMHUNVW2EVgM",
+            "formattedAddress" : "Madängsgatan, Stockholm, Sverige",
+            "route" : "Madängsgatan",
+            "shortName" : null,
+            "streetNumber" : "22",
+            "latitude" : "59.3530697",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.088468"
+         },
+         "duration" : {
+            "start" : {
+               "asap" : false,
+               "optimal" : "2020-12-11T00:00:00.000Z"
+            },
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-04-30T00:00:00.000Z"
+            }
+         },
+         "professional" : false,
+         "recommendedRent" : 17043,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 18,
+         "fee" : 775,
+         "landlordApplicationId" : null
+      },
+      {
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 191090,
+         "inContactCount" : 31,
+         "homeType" : "apartment",
+         "origin" : null,
+         "studentHome" : false,
+         "squareMeters" : 58,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/hornsbergs-strand-stockholm/191090",
+            "fi" : "https://bostad.blocket.se/rent/apartment/hornsbergs-strand-stockholm/191090",
+            "en" : "https://bostad.blocket.se/rent/apartment/hornsbergs-strand-stockholm/191090",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/hornsbergs-strand-stockholm/191090"
+         },
+         "matchingCount" : 594,
+         "roomCount" : 2,
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "title" : "7B1DD5AB-9B90-47A0-876A-C661B3AE8B93.jpeg",
+               "id" : 2114940,
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 5
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc1eb59243bc52781ae0034d01f79a1f2f3b17fc1c8fc85098db909da95bcec7.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "applicationCount" : 73,
+         "rent" : 16000,
+         "userUid" : "md5qiz5g",
+         "professional" : false,
+         "location" : {
+            "route" : "Hornsbergs strand",
+            "formattedAddress" : "Hornsbergs Strand 21, 112 16 Stockholm, Sverige",
+            "placeId" : "ChIJ0xfdnoadX0YRmPixmQRiQN0",
+            "locality" : "Stockholm",
+            "postalCode" : "11217",
+            "sublocality" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0122138",
+            "country" : "Sverige",
+            "latitude" : "59.3401298",
+            "shortName" : null,
+            "streetNumber" : "21"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2020-12-01T00:00:00.000Z"
+            }
+         },
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-04T18:31:47.106Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 15890,
+         "declinedCount" : 10,
+         "fee" : 800,
+         "landlordApplicationId" : null
+      },
+      {
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d655d9e14b7ec7f21066522c47ab8ab821f08ee76f1d6107c5eef553e8f59702.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : false,
+                  "rotation" : null,
+                  "order" : null
+               },
+               "id" : 2008937,
+               "title" : "6.jpg"
+            }
+         ],
+         "applicationCount" : 33,
+         "rent" : 15900,
+         "userUid" : "3drzceq7",
+         "professional" : false,
+         "location" : {
+            "locality" : "Stockholm",
+            "postalCode" : "11529",
+            "sublocality" : null,
+            "route" : "Värtavägen",
+            "placeId" : "ChIJg-SBhEmdX0YRUZLi1HZNmmo",
+            "formattedAddress" : "Värtavägen 39, 115 29 Stockholm, Sverige",
+            "latitude" : "59.3432701",
+            "shortName" : null,
+            "streetNumber" : "Värtavägen 39",
+            "countryCode" : "SE",
+            "longitude" : "18.0989492",
+            "country" : "Sverige"
+         },
+         "duration" : {
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            },
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-01-30T00:00:00.000Z"
+            }
+         },
+         "seniorHome" : false,
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-06T09:40:37.883Z",
+         "firsthand" : false,
+         "recommendedRent" : 19015,
+         "declinedCount" : 9,
+         "fee" : 795,
+         "landlordApplicationId" : null,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "id" : 191885,
+         "inContactCount" : 21,
+         "homeType" : "apartment",
+         "origin" : null,
+         "studentHome" : false,
+         "squareMeters" : 55,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/vartavagen-stockholm/191885",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/vartavagen-stockholm/191885",
+            "fi" : "https://bostad.blocket.se/rent/apartment/vartavagen-stockholm/191885",
+            "fr" : "https://bostad.blocket.se/rent/apartment/vartavagen-stockholm/191885"
+         },
+         "matchingCount" : 630,
+         "roomCount" : 2.5
+      },
+      {
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 193699,
+         "homeType" : "apartment",
+         "inContactCount" : 17,
+         "origin" : null,
+         "studentHome" : false,
+         "squareMeters" : 50,
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/warfvinges-vag-stockholm/193699",
+            "fr" : "https://bostad.blocket.se/rent/apartment/warfvinges-vag-stockholm/193699",
+            "en" : "https://bostad.blocket.se/rent/apartment/warfvinges-vag-stockholm/193699",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/warfvinges-vag-stockholm/193699"
+         },
+         "matchingCount" : 810,
+         "roomCount" : 2,
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "id" : 2025453,
+               "title" : "_Q1A4653-2.jpg",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88076ba6d1da69ce0a0739200536d001ac72a4ccbc0713cc33c1fd7433c18708.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               }
+            }
+         ],
+         "applicationCount" : 74,
+         "userUid" : "m82gneg0",
+         "rent" : 15000,
+         "location" : {
+            "placeId" : "ChIJrfsSLYGdX0YR3IqnbfUA2ic",
+            "formattedAddress" : "Warfvinges väg, Stockholm, Sverige",
+            "route" : "Warfvinges väg",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "112 18",
+            "country" : "Sverige",
+            "longitude" : "18.0125805",
+            "countryCode" : "SE",
+            "shortName" : null,
+            "streetNumber" : "7",
+            "latitude" : "59.3377904"
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "optimal" : "2021-11-01T00:00:00.000Z",
+               "ufn" : false
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-11T14:03:09.125Z",
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 15430,
+         "declinedCount" : 54,
+         "fee" : 750,
+         "landlordApplicationId" : null
+      },
+      {
+         "matchingCount" : 452,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 44,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/sankt-paulsgatan-stockholm/194565",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/sankt-paulsgatan-stockholm/194565",
+            "fi" : "https://bostad.blocket.se/rent/apartment/sankt-paulsgatan-stockholm/194565",
+            "fr" : "https://bostad.blocket.se/rent/apartment/sankt-paulsgatan-stockholm/194565"
+         },
+         "inContactCount" : 10,
+         "homeType" : "apartment",
+         "origin" : null,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 194565,
+         "landlordApplicationId" : null,
+         "adPaidAt" : null,
+         "safeRental" : false,
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 14248,
+         "declinedCount" : 9,
+         "fee" : 900,
+         "rent" : 18000,
+         "userUid" : "lmunnao4",
+         "location" : {
+            "countryCode" : "SE",
+            "longitude" : "18.0602783",
+            "country" : "Sverige",
+            "latitude" : "59.3173564",
+            "shortName" : null,
+            "streetNumber" : "28",
+            "route" : "Sankt Paulsgatan",
+            "formattedAddress" : "Sankt Paulsgatan 28, 118 48 Stockholm, Sverige",
+            "placeId" : "Ei1TYW5rdCBQYXVsc2dhdGFuIDI4LCAxMTggNDggU3RvY2tob2xtLCBTd2VkZW4iGhIYChQKEgm5o3QM5ndfRhEKT3EbO-4_HhAc",
+            "locality" : "Stockholm",
+            "postalCode" : "11848",
+            "sublocality" : null
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "optimal" : "2021-05-31T00:00:00.000Z",
+               "ufn" : false
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "homeStatus" : "normal",
+         "applicationCount" : 27,
+         "uploads" : [
+            {
+               "title" : "living room1.jpg",
+               "id" : 2033526,
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 2,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/789d3d2d6fc6d9ee90c460d2691ee22f45e5bd32b51af81090b1a9ac75e2e16c.jpg",
+               "fileType" : "image"
+            }
+         ]
+      },
+      {
+         "landlordApplicationId" : null,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "recommendedRent" : 15503,
+         "firsthand" : false,
+         "declinedCount" : 0,
+         "fee" : 898,
+         "userUid" : "or6fab1b",
+         "rent" : 17950,
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-03-01T00:00:00.000Z"
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2020-11-30T00:00:00.000Z"
+            }
+         },
+         "location" : {
+            "route" : "Odengatan",
+            "formattedAddress" : "Odengatan, Stockholm, Sverige",
+            "placeId" : "ChIJY-terG-dX0YRn_WlHl876xw",
+            "locality" : "Stockholm",
+            "postalCode" : "114 24",
+            "sublocality" : null,
+            "longitude" : "18.0524155",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "latitude" : "59.3432976",
+            "streetNumber" : "7",
+            "shortName" : null
+         },
+         "professional" : true,
+         "homeStatus" : "normal",
+         "applicationCount" : 32,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 6,
+                  "primary" : true
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/68fc41362e45f1d5435108349e5e02ecaba8e26199966c73f5597dcd121ad596.jpg",
+               "id" : 2044767,
+               "title" : "d18614d4f92bb4ae93ffa781b85f358e.jpg"
+            }
+         ],
+         "matchingCount" : 346,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 50,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://en.qasa.se/rent/apartment/odengatan-stockholm/195808",
+            "fi" : "https://en.qasa.se/rent/apartment/odengatan-stockholm/195808",
+            "sv" : "https://qasa.se/hyra/lagenhet/odengatan-stockholm/195808",
+            "en" : "https://en.qasa.se/rent/apartment/odengatan-stockholm/195808"
+         },
+         "homeType" : "apartment",
+         "inContactCount" : 12,
+         "origin" : null,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "id" : 195808
+      },
+      {
+         "origin" : null,
+         "inContactCount" : 6,
+         "homeType" : "apartment",
+         "id" : 197415,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "roomCount" : 2,
+         "matchingCount" : 363,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/kungsholmstorg-stockholm/197415",
+            "fr" : "https://bostad.blocket.se/rent/apartment/kungsholmstorg-stockholm/197415",
+            "en" : "https://bostad.blocket.se/rent/apartment/kungsholmstorg-stockholm/197415",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/kungsholmstorg-stockholm/197415"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 54,
+         "studentHome" : false,
+         "location" : {
+            "placeId" : "ChIJhcoKYNh3X0YROeZ8N_gMODw",
+            "formattedAddress" : "Kungsholmstorg 13B, 112 21 Stockholm, Sverige",
+            "route" : "Kungsholmstorg",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "112 21",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0425462",
+            "streetNumber" : "13B",
+            "shortName" : null,
+            "latitude" : "59.3286521"
+         },
+         "professional" : false,
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "optimal" : "2021-04-30T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "userUid" : "jmri1myw",
+         "rent" : 16900,
+         "applicationCount" : 36,
+         "uploads" : [
+            {
+               "title" : "91796701_244138840102539_9034797920016138240_n.jpg",
+               "id" : 2059898,
+               "metadata" : {
+                  "order" : 1,
+                  "rotation" : null,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc6be64608122e6d60ea4ba7a21bdab7e2b04dbf4a5db1e374b14bacd4c2f023.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 845,
+         "declinedCount" : 1,
+         "adPaidAt" : "2020-10-21T10:24:12.365Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 15660,
+         "firsthand" : false
+      },
+      {
+         "landlordApplicationId" : null,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 16402,
+         "declinedCount" : 59,
+         "fee" : 750,
+         "userUid" : "jl5628ws",
+         "rent" : 15000,
+         "location" : {
+            "placeId" : "ChIJeUvtf2mdX0YRVf4SBgAEmNQ",
+            "formattedAddress" : "Karlavägen 5, 114 24 Stockholm, Sverige",
+            "route" : "Karlavägen",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "11424",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0648377",
+            "shortName" : null,
+            "streetNumber" : "5",
+            "latitude" : "59.344735"
+         },
+         "professional" : false,
+         "duration" : {
+            "start" : {
+               "asap" : false,
+               "optimal" : "2021-01-01T00:00:00.000Z"
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "homeStatus" : "normal",
+         "applicationCount" : 135,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7dd6aec6bf92e03ef2339771b549f93f9d1d687cc4ebd39d696c1545f6e8b513.png",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : false,
+                  "rotation" : null,
+                  "order" : null
+               },
+               "id" : 2065789,
+               "title" : "Kitchen.png"
+            }
+         ],
+         "matchingCount" : 592,
+         "roomCount" : 2.5,
+         "studentHome" : false,
+         "squareMeters" : 50,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/karlavagen-stockholm/198034",
+            "fi" : "https://bostad.blocket.se/rent/apartment/karlavagen-stockholm/198034",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/karlavagen-stockholm/198034",
+            "en" : "https://bostad.blocket.se/rent/apartment/karlavagen-stockholm/198034"
+         },
+         "inContactCount" : 36,
+         "homeType" : "apartment",
+         "origin" : null,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 198034
+      },
+      {
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/radmansgatan-stockholm/198339",
+            "en" : "https://bostad.blocket.se/rent/apartment/radmansgatan-stockholm/198339",
+            "fr" : "https://bostad.blocket.se/rent/apartment/radmansgatan-stockholm/198339",
+            "fi" : "https://bostad.blocket.se/rent/apartment/radmansgatan-stockholm/198339"
+         },
+         "studentHome" : false,
+         "squareMeters" : 36,
+         "roomCount" : 2,
+         "matchingCount" : 633,
+         "id" : 198339,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "origin" : null,
+         "inContactCount" : 4,
+         "homeType" : "apartment",
+         "fee" : 745,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : "2020-10-24T07:57:45.738Z",
+         "recommendedRent" : 14217,
+         "firsthand" : false,
+         "declinedCount" : 18,
+         "landlordApplicationId" : null,
+         "uploads" : [
+            {
+               "id" : 2068848,
+               "title" : "eb2aa2cc-91cd-45e8-ba6c-32b6aea01923.JPG",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/705a5724aec7c620fa32ab787c45cce827420425024e5ae55a6825e21a28ad03.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               }
+            }
+         ],
+         "applicationCount" : 63,
+         "homeStatus" : "normal",
+         "rent" : 14900,
+         "userUid" : "dxxrh9m2",
+         "professional" : false,
+         "location" : {
+            "streetNumber" : "75",
+            "shortName" : null,
+            "latitude" : "59.3411685",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0614986",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "113 60",
+            "formattedAddress" : "Rådmansgatan, Stockholm, Sverige",
+            "placeId" : "ChIJByKF8midX0YRNE4cHyVnVcI",
+            "route" : "Rådmansgatan"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : "2020-12-15T00:00:00.000Z",
+               "asap" : false
+            }
+         }
+      },
+      {
+         "studentHome" : false,
+         "squareMeters" : 45,
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/marieviksgatan-stockholm/198834",
+            "fr" : "https://bostad.blocket.se/rent/apartment/marieviksgatan-stockholm/198834",
+            "en" : "https://bostad.blocket.se/rent/apartment/marieviksgatan-stockholm/198834",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/marieviksgatan-stockholm/198834"
+         },
+         "matchingCount" : 521,
+         "roomCount" : 2,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 198834,
+         "inContactCount" : 1,
+         "homeType" : "apartment",
+         "origin" : null,
+         "adPaidAt" : "2020-10-25T18:04:05.151Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 12232,
+         "declinedCount" : 5,
+         "fee" : 750,
+         "landlordApplicationId" : null,
+         "homeStatus" : "normal",
+         "applicationCount" : 8,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 1
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/77ad763ddab5f0d466cf7d8391d40fdb232eb239d61fca2642f8560efba890bd.jpg",
+               "fileType" : "image",
+               "id" : 2073724,
+               "title" : "IMG_20190118_155943_5153123164927274588.jpg"
+            }
+         ],
+         "rent" : 15000,
+         "userUid" : "jrolu9ou",
+         "duration" : {
+            "start" : {
+               "optimal" : "2021-01-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "location" : {
+            "latitude" : "59.3087083",
+            "shortName" : null,
+            "streetNumber" : "40",
+            "longitude" : "18.02835",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "locality" : "Stockholm",
+            "postalCode" : "117 60",
+            "sublocality" : null,
+            "route" : "Marieviksgatan",
+            "formattedAddress" : "Marieviksgatan, Stockholm, Sverige",
+            "placeId" : "ChIJIbOFecd3X0YRK3MWjT_M7-s"
+         },
+         "professional" : false
+      },
+      {
+         "landlordApplicationId" : null,
+         "fee" : 795,
+         "firsthand" : false,
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-26T09:39:34.160Z",
+         "seniorHome" : false,
+         "recommendedRent" : 17548,
+         "declinedCount" : 1,
+         "userUid" : "pjrxse9x",
+         "rent" : 15900,
+         "duration" : {
+            "start" : {
+               "optimal" : "2021-02-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "location" : {
+            "route" : "Narvavägen",
+            "placeId" : "ChIJQwSxIk6dX0YRDnlECWTPrQU",
+            "formattedAddress" : "Narvavägen 22, 115 22 Stockholm, Sverige",
+            "locality" : "Stockholm",
+            "postalCode" : "11522",
+            "sublocality" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0917749",
+            "country" : "Sverige",
+            "latitude" : "59.3358238",
+            "shortName" : null,
+            "streetNumber" : "22"
+         },
+         "professional" : false,
+         "applicationCount" : 55,
+         "uploads" : [
+            {
+               "id" : 2074934,
+               "title" : "bild 5(2).JPG",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab2497aefa27b164372d1f288b71246ee5a77d8e72f9164fb90023d55d59569e.jpg",
+               "fileType" : "image",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               }
+            }
+         ],
+         "homeStatus" : "normal",
+         "roomCount" : 2,
+         "matchingCount" : 442,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/narvavagen-stockholm/198974",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/narvavagen-stockholm/198974",
+            "fr" : "https://bostad.blocket.se/rent/apartment/narvavagen-stockholm/198974",
+            "fi" : "https://bostad.blocket.se/rent/apartment/narvavagen-stockholm/198974"
+         },
+         "studentHome" : false,
+         "squareMeters" : 57,
+         "origin" : null,
+         "inContactCount" : 19,
+         "homeType" : "apartment",
+         "id" : 198974,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false
+      },
+      {
+         "homeStatus" : "normal",
+         "applicationCount" : 5,
+         "uploads" : [
+            {
+               "title" : "33.jpg",
+               "id" : 2079377,
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 2,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5624a83425255b967d4338bbd2df5139c5b2aa1b5bcd33720c07167b2ab3e0b0.jpg"
+            }
+         ],
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "optimal" : "2021-11-30T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "location" : {
+            "latitude" : "59.3134005",
+            "shortName" : null,
+            "streetNumber" : "8",
+            "countryCode" : "SE",
+            "longitude" : "18.031856",
+            "country" : "Sverige",
+            "postalCode" : "117 39",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "route" : "Liljeholmsbron",
+            "placeId" : "ChIJVXW8XsZ3X0YR8vQGdWGzgwU",
+            "formattedAddress" : "Liljeholmsbron, Stockholm, Sverige"
+         },
+         "professional" : true,
+         "userUid" : "mccdc3nm",
+         "rent" : 15525,
+         "declinedCount" : 0,
+         "seniorHome" : false,
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-27T09:38:56.926Z",
+         "firsthand" : false,
+         "recommendedRent" : 12366,
+         "fee" : 776,
+         "landlordApplicationId" : null,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "id" : 199529,
+         "inContactCount" : 5,
+         "homeType" : "apartment",
+         "origin" : null,
+         "squareMeters" : 47,
+         "studentHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/liljeholmsbron-stockholm/199529",
+            "fr" : "https://bostad.blocket.se/rent/apartment/liljeholmsbron-stockholm/199529",
+            "en" : "https://bostad.blocket.se/rent/apartment/liljeholmsbron-stockholm/199529",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/liljeholmsbron-stockholm/199529"
+         },
+         "corporateHome" : false,
+         "matchingCount" : 270,
+         "roomCount" : 2
+      },
+      {
+         "landlordApplicationId" : null,
+         "fee" : 750,
+         "adPaidAt" : "2020-10-27T18:56:50.873Z",
+         "safeRental" : false,
+         "recommendedRent" : 16336,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 0,
+         "userUid" : "o1i58vna",
+         "rent" : 15000,
+         "duration" : {
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            },
+            "end" : {
+               "optimal" : "2021-05-01T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "location" : {
+            "sublocality" : null,
+            "postalCode" : "11534",
+            "locality" : "Stockholm",
+            "placeId" : "ChIJqaeiaEidX0YRQBJQhfwMs5Q",
+            "formattedAddress" : "Erik Dahlbergsgatan 43, 115 34 Stockholm, Sverige",
+            "route" : "Erik Dahlbergsgatan",
+            "streetNumber" : "43",
+            "shortName" : null,
+            "latitude" : "59.3445784",
+            "country" : "Sverige",
+            "longitude" : "18.0927069",
+            "countryCode" : "SE"
+         },
+         "professional" : false,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "primary" : false,
+                  "order" : null,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/db565c50ff8268e13b4e29c41def8c4f9ef6949cf74f6d031db045b40691fc84.jpg",
+               "title" : "IMG_2423.JPG",
+               "id" : 2081484
+            }
+         ],
+         "applicationCount" : 15,
+         "homeStatus" : "normal",
+         "roomCount" : 2,
+         "matchingCount" : 816,
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/erik-dahlbergsgatan-stockholm/199754",
+            "fr" : "https://bostad.blocket.se/rent/apartment/erik-dahlbergsgatan-stockholm/199754",
+            "en" : "https://bostad.blocket.se/rent/apartment/erik-dahlbergsgatan-stockholm/199754",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/erik-dahlbergsgatan-stockholm/199754"
+         },
+         "studentHome" : false,
+         "squareMeters" : 45,
+         "origin" : null,
+         "inContactCount" : 5,
+         "homeType" : "apartment",
+         "id" : 199754,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false
+      },
+      {
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-11-08T00:00:00.000Z"
+            },
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            }
+         },
+         "location" : {
+            "country" : "Sverige",
+            "longitude" : "18.0035071",
+            "countryCode" : "SE",
+            "streetNumber" : "53",
+            "shortName" : null,
+            "latitude" : "59.3237269",
+            "placeId" : "ChIJ3ykibC52X0YRlnDv3FU932E",
+            "formattedAddress" : "Primusgatan, Stockholm, Sverige",
+            "route" : "Primusgatan",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "112 67"
+         },
+         "professional" : true,
+         "userUid" : "mccdc3nm",
+         "rent" : 17250,
+         "applicationCount" : 0,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b1cd6f5be626f007d97c9287866c3417501bf33174b074bd3b15aeaad4658e91.png",
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 2
+               },
+               "uploadType" : "home_picture",
+               "title" : "Skärmavbild 2020-10-30 kl. 16.06.53.png",
+               "id" : 2091764
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 863,
+         "declinedCount" : 0,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : "2020-10-30T15:10:05.196Z",
+         "firsthand" : false,
+         "recommendedRent" : 15142,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 0,
+         "id" : 200902,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "roomCount" : 2,
+         "matchingCount" : 261,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/primusgatan-stockholm/200902",
+            "fr" : "https://bostad.blocket.se/rent/apartment/primusgatan-stockholm/200902",
+            "en" : "https://bostad.blocket.se/rent/apartment/primusgatan-stockholm/200902",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/primusgatan-stockholm/200902"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 45,
+         "studentHome" : false
+      },
+      {
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-06-30T00:00:00.000Z"
+            },
+            "start" : {
+               "optimal" : "2021-01-01T00:00:00.000Z",
+               "asap" : false
+            }
+         },
+         "location" : {
+            "postalCode" : "11218",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "route" : "Kellgrensgatan",
+            "placeId" : "ChIJC2lcwYCdX0YR3IFOb5zJgfk",
+            "formattedAddress" : "Kellgrensgatan 16, 112 18 Stockholm, Sverige",
+            "latitude" : "59.3360284",
+            "shortName" : null,
+            "streetNumber" : "16",
+            "countryCode" : "SE",
+            "longitude" : "18.0141574",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "rent" : 15500,
+         "userUid" : "mzwtdel9",
+         "applicationCount" : 18,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f89effab8e311f274c4551feeef95ac69b2e508850324faabc6a7ff0999f7087.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : 1,
+                  "rotation" : null,
+                  "primary" : false
+               },
+               "id" : 2094305,
+               "title" : "varagsrum.jpg"
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 775,
+         "declinedCount" : 4,
+         "safeRental" : false,
+         "adPaidAt" : "2020-10-31T14:40:13.691Z",
+         "recommendedRent" : 16178,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 8,
+         "id" : 201200,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "roomCount" : 2,
+         "matchingCount" : 525,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/kellgrensgatan-stockholm/201200",
+            "fr" : "https://bostad.blocket.se/rent/apartment/kellgrensgatan-stockholm/201200",
+            "en" : "https://bostad.blocket.se/rent/apartment/kellgrensgatan-stockholm/201200",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/kellgrensgatan-stockholm/201200"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 63,
+         "studentHome" : false
+      },
+      {
+         "inContactCount" : 26,
+         "homeType" : "apartment",
+         "origin" : null,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "id" : 201888,
+         "matchingCount" : 369,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 36,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://en.qasa.se/rent/apartment/birger-jarlsgatan-stockholm/201888",
+            "sv" : "https://qasa.se/hyra/lagenhet/birger-jarlsgatan-stockholm/201888",
+            "fr" : "https://en.qasa.se/rent/apartment/birger-jarlsgatan-stockholm/201888",
+            "fi" : "https://en.qasa.se/rent/apartment/birger-jarlsgatan-stockholm/201888"
+         },
+         "userUid" : "3w966071",
+         "rent" : 16300,
+         "location" : {
+            "formattedAddress" : "Birger Jarlsgatan 104F, 114 20 Stockholm, Sverige",
+            "placeId" : "ChIJifr9hWudX0YRpgNxLwrSc84",
+            "route" : "Birger Jarlsgatan",
+            "sublocality" : null,
+            "postalCode" : "11420",
+            "locality" : "Stockholm",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0624394",
+            "shortName" : null,
+            "streetNumber" : "104F",
+            "latitude" : "59.3474063"
+         },
+         "duration" : {
+            "start" : {
+               "asap" : false,
+               "optimal" : "2021-02-01T00:00:00.000Z"
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "professional" : false,
+         "homeStatus" : "normal",
+         "applicationCount" : 48,
+         "uploads" : [
+            {
+               "title" : "B5D9634E-8357-4233-8A2B-A1493ADEA98A.jpeg",
+               "id" : 2099781,
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d195ec022fd18a042d9cd2e47b056bfa3cd876e7a10abbbd5eb8757672e6320.jpg",
+               "fileType" : "image",
+               "metadata" : {
+                  "order" : 1,
+                  "rotation" : null,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture"
+            }
+         ],
+         "landlordApplicationId" : null,
+         "adPaidAt" : null,
+         "safeRental" : true,
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 14217,
+         "declinedCount" : 11,
+         "fee" : 815
+      },
+      {
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            }
+         },
+         "location" : {
+            "sublocality" : null,
+            "postalCode" : "116 42",
+            "locality" : "Stockholm",
+            "formattedAddress" : "Katarina Bangata, Stockholm, Sverige",
+            "placeId" : "ChIJ-WL-tvd3X0YR7zV67CZNoGE",
+            "route" : "Katarina Bangata",
+            "shortName" : null,
+            "streetNumber" : "79",
+            "latitude" : "59.3106108",
+            "country" : "Sverige",
+            "longitude" : "18.0834168",
+            "countryCode" : "SE"
+         },
+         "professional" : true,
+         "userUid" : "c25a3yc4",
+         "rent" : 16500,
+         "homeStatus" : "normal",
+         "applicationCount" : 5,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/58dd0acfbbab180fa395c1c3a9117c9b2fffe0fd5741e14eb83efca8e0287174.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : null,
+                  "rotation" : null,
+                  "primary" : false
+               },
+               "id" : 2100781,
+               "title" : "20201028_154137.jpg"
+            }
+         ],
+         "landlordApplicationId" : null,
+         "declinedCount" : 3,
+         "seniorHome" : false,
+         "safeRental" : false,
+         "adPaidAt" : "2020-11-02T10:33:36.703Z",
+         "firsthand" : false,
+         "recommendedRent" : 12952,
+         "fee" : 825,
+         "homeType" : "apartment",
+         "inContactCount" : 2,
+         "origin" : null,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "id" : 202024,
+         "matchingCount" : 530,
+         "roomCount" : 1.5,
+         "squareMeters" : 41,
+         "studentHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/202024",
+            "fr" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/202024",
+            "en" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/202024",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/katarina-bangata-stockholm/202024"
+         },
+         "corporateHome" : false
+      },
+      {
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2021-01-01T00:00:00.000Z"
+            }
+         },
+         "location" : {
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0028784",
+            "shortName" : null,
+            "streetNumber" : "78",
+            "latitude" : "59.332551",
+            "formattedAddress" : "Drottningholmsvägen, Stockholm, Sverige",
+            "placeId" : "EjREcm90dG5pbmdob2xtc3bDpGdlbiwgS3VuZ3Nob2xtZW4sIFN0b2NraG9sbSwgU3dlZGVuIi4qLAoUChIJtSjwHh92X0YRLEnmhuCFxfQSFAoSCXc7Rq_Ud19GEQEVh4hryij3",
+            "route" : "Drottningholmsvägen, Kungsholmen",
+            "sublocality" : null,
+            "postalCode" : "112 48",
+            "locality" : "Stockholm"
+         },
+         "professional" : false,
+         "userUid" : "i731uxmr",
+         "rent" : 16500,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c189368895a6f4ade623cdd52e92573d29af6e863e46b878ba0e4b453e1eae4.png",
+               "fileType" : "image",
+               "title" : "498A3627-56A3-43CB-AE4E-D5491191A324.png",
+               "id" : 2101150
+            }
+         ],
+         "applicationCount" : 12,
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 825,
+         "declinedCount" : 5,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : null,
+         "recommendedRent" : 14566,
+         "firsthand" : false,
+         "origin" : null,
+         "inContactCount" : 5,
+         "homeType" : "apartment",
+         "id" : 202077,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "roomCount" : 2,
+         "matchingCount" : 365,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-kungsholmen-stockholm/202077",
+            "fi" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-kungsholmen-stockholm/202077",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/drottningholmsvagen-kungsholmen-stockholm/202077",
+            "en" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-kungsholmen-stockholm/202077"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 35,
+         "studentHome" : false
+      },
+      {
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/lindhagensgatan-stockholm/202674",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/lindhagensgatan-stockholm/202674",
+            "fi" : "https://bostad.blocket.se/rent/apartment/lindhagensgatan-stockholm/202674",
+            "fr" : "https://bostad.blocket.se/rent/apartment/lindhagensgatan-stockholm/202674"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 68,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 456,
+         "id" : 202674,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "origin" : null,
+         "inContactCount" : 7,
+         "homeType" : "apartment",
+         "fee" : 800,
+         "declinedCount" : 11,
+         "safeRental" : true,
+         "recommendedRent" : 16466,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "landlordApplicationId" : null,
+         "applicationCount" : 62,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 1
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fdf2aea6c66021b6438ea72d29b78fabd16420d5b910cc800d48acce533fe1b.jpg",
+               "fileType" : "image",
+               "id" : 2106499,
+               "title" : "CD75DFAD-FA37-40E0-823D-30DD8E8E5500.jpeg"
+            }
+         ],
+         "homeStatus" : "normal",
+         "location" : {
+            "postalCode" : "112 15",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "route" : "Lindhagensgatan",
+            "placeId" : "ChIJVTl1tICdX0YRKPkJgqz9G_c",
+            "formattedAddress" : "Lindhagensgatan, Stockholm, Sverige",
+            "latitude" : "59.3357933",
+            "streetNumber" : "135",
+            "shortName" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0121599",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-05T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "userUid" : "i2purvko",
+         "rent" : 16000
+      },
+      {
+         "userUid" : "rh3qqsk7",
+         "rent" : 16500,
+         "location" : {
+            "latitude" : "59.3106108",
+            "shortName" : null,
+            "streetNumber" : "79",
+            "countryCode" : "SE",
+            "longitude" : "18.0834168",
+            "country" : "Sverige",
+            "postalCode" : "116 42",
+            "locality" : "Stockholm",
+            "sublocality" : null,
+            "route" : "Katarina Bangata",
+            "formattedAddress" : "Katarina Bangata, Stockholm, Sverige",
+            "placeId" : "ChIJ-WL-tvd3X0YR7zV67CZNoGE"
+         },
+         "professional" : true,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : "2020-11-01T00:00:00.000Z",
+               "asap" : true
+            }
+         },
+         "applicationCount" : 18,
+         "uploads" : [
+            {
+               "id" : 2117424,
+               "title" : "2E86513E-D9E8-466B-801D-F5EB1B9FA554.jpeg",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/949bb664d3e46335f3960b403ec7be0fcc70bf8f0e2331d683fef508652747c5.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 1,
+                  "primary" : true
+               }
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 825,
+         "safeRental" : true,
+         "recommendedRent" : 12952,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 2,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 5,
+         "id" : 203860,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "roomCount" : 1.5,
+         "matchingCount" : 591,
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/203860",
+            "fr" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/203860",
+            "en" : "https://bostad.blocket.se/rent/apartment/katarina-bangata-stockholm/203860",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/katarina-bangata-stockholm/203860"
+         },
+         "studentHome" : false,
+         "squareMeters" : 41
+      },
+      {
+         "inContactCount" : 8,
+         "homeType" : "apartment",
+         "origin" : null,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 204550,
+         "matchingCount" : 439,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 55,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/essingestraket-stockholm/204550",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/essingestraket-stockholm/204550",
+            "fr" : "https://bostad.blocket.se/rent/apartment/essingestraket-stockholm/204550",
+            "fi" : "https://bostad.blocket.se/rent/apartment/essingestraket-stockholm/204550"
+         },
+         "userUid" : "w3g65bju",
+         "rent" : 16000,
+         "professional" : false,
+         "location" : {
+            "route" : "Essingestråket",
+            "formattedAddress" : "Essingestråket 36, 112 66 Stockholm, Sverige",
+            "placeId" : "ChIJXyoHxTt2X0YR5kGyqtoNcKc",
+            "locality" : "Stockholm",
+            "postalCode" : "11632",
+            "sublocality" : null,
+            "longitude" : "17.9843688",
+            "countryCode" : "SE",
+            "country" : "Sverige",
+            "latitude" : "59.3214881",
+            "shortName" : null,
+            "streetNumber" : "36"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-11-25T00:00:00.000Z"
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2020-11-25T00:00:00.000Z"
+            }
+         },
+         "homeStatus" : "normal",
+         "applicationCount" : 19,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : null,
+                  "rotation" : null,
+                  "primary" : false
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b337d5d5df4b27195071e52b130f71d160c996fe33e9678429919e738e79a66d.jpg",
+               "id" : 2124542,
+               "title" : "55104D86-0AA4-4CDC-8B1C-11D06F8F4506.jpeg"
+            }
+         ],
+         "landlordApplicationId" : null,
+         "adPaidAt" : "2020-11-08T21:58:30.764Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 11866,
+         "declinedCount" : 3,
+         "fee" : 800
+      },
+      {
+         "landlordApplicationId" : null,
+         "safeRental" : false,
+         "firsthand" : false,
+         "adPaidAt" : "2020-11-09T13:44:30.261Z",
+         "seniorHome" : false,
+         "recommendedRent" : 14312,
+         "declinedCount" : 0,
+         "fee" : 805,
+         "userUid" : "mccdc3nm",
+         "rent" : 16100,
+         "duration" : {
+            "start" : {
+               "optimal" : "2021-01-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "optimal" : "2021-06-30T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "location" : {
+            "countryCode" : "SE",
+            "longitude" : "18.0670045",
+            "country" : "Sverige",
+            "latitude" : "59.3074799",
+            "shortName" : null,
+            "streetNumber" : "6",
+            "route" : "Timotejgatan",
+            "placeId" : "ChIJ85NmSPJ3X0YRIqxOhbICxY8",
+            "formattedAddress" : "Timotejgatan, Stockholm, Sverige",
+            "locality" : "Stockholm",
+            "postalCode" : "118 59",
+            "sublocality" : null
+         },
+         "professional" : true,
+         "homeStatus" : "normal",
+         "applicationCount" : 4,
+         "uploads" : [
+            {
+               "title" : "1.jpg",
+               "id" : 2126440,
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/654beda20f0d3df24519604444363f3015d969317774eaf9f04284fcb0d038c6.jpg",
+               "fileType" : "image",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 2,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture"
+            }
+         ],
+         "matchingCount" : 347,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 45,
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/timotejgatan-stockholm/204797",
+            "en" : "https://bostad.blocket.se/rent/apartment/timotejgatan-stockholm/204797",
+            "fr" : "https://bostad.blocket.se/rent/apartment/timotejgatan-stockholm/204797",
+            "fi" : "https://bostad.blocket.se/rent/apartment/timotejgatan-stockholm/204797"
+         },
+         "inContactCount" : 3,
+         "homeType" : "apartment",
+         "origin" : null,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "id" : 204797
+      },
+      {
+         "squareMeters" : 50,
+         "studentHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/strindbergsgatan-stockholm/205223",
+            "en" : "https://bostad.blocket.se/rent/apartment/strindbergsgatan-stockholm/205223",
+            "fr" : "https://bostad.blocket.se/rent/apartment/strindbergsgatan-stockholm/205223",
+            "fi" : "https://bostad.blocket.se/rent/apartment/strindbergsgatan-stockholm/205223"
+         },
+         "corporateHome" : false,
+         "matchingCount" : 688,
+         "roomCount" : 2,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "id" : 205223,
+         "homeType" : "apartment",
+         "inContactCount" : 7,
+         "origin" : null,
+         "declinedCount" : 4,
+         "adPaidAt" : "2020-11-10T14:09:51.079Z",
+         "safeRental" : false,
+         "recommendedRent" : 16841,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "fee" : 750,
+         "landlordApplicationId" : null,
+         "homeStatus" : "normal",
+         "applicationCount" : 11,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 2
+               },
+               "uploadType" : "home_picture",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cd23b100a34441ce0689531908d00753852539d40f928e704f9adfa52b315aaa.jpg",
+               "fileType" : "image",
+               "title" : "IMG_20201112_105704.jpg",
+               "id" : 2137728
+            }
+         ],
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "location" : {
+            "placeId" : "Ei1TdHJpbmRiZXJnc2dhdGFuIDQ1LCAxMTUgMzEgU3RvY2tob2xtLCBTd2VkZW4iGhIYChQKEgkHnOraSJ1fRhHmQ6mFzyPCChAt",
+            "formattedAddress" : "Strindbergsgatan 45, 115 31 Stockholm, Sverige",
+            "route" : "Strindbergsgatan",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "11531",
+            "country" : "Sverige",
+            "longitude" : "18.0927184",
+            "countryCode" : "SE",
+            "streetNumber" : "45",
+            "shortName" : null,
+            "latitude" : "59.3419515"
+         },
+         "professional" : true,
+         "rent" : 15000,
+         "userUid" : "coqmiksj"
+      },
+      {
+         "squareMeters" : 40,
+         "studentHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/torsgatan-stockholm/206369",
+            "fr" : "https://bostad.blocket.se/rent/apartment/torsgatan-stockholm/206369",
+            "en" : "https://bostad.blocket.se/rent/apartment/torsgatan-stockholm/206369",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/torsgatan-stockholm/206369"
+         },
+         "corporateHome" : false,
+         "matchingCount" : 433,
+         "roomCount" : 2,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "id" : 206369,
+         "homeType" : "apartment",
+         "inContactCount" : 4,
+         "origin" : null,
+         "declinedCount" : 14,
+         "safeRental" : false,
+         "adPaidAt" : "2020-11-15T08:11:57.763Z",
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 14585,
+         "fee" : 825,
+         "landlordApplicationId" : null,
+         "homeStatus" : "normal",
+         "applicationCount" : 25,
+         "uploads" : [
+            {
+               "id" : 2141286,
+               "title" : "IMG_1679.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : 5,
+                  "rotation" : null,
+                  "primary" : true
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5e8d84f0a37e040b66d968ad199e84832ec5f1ef10d6c104b07136df4e5bbc5c.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "location" : {
+            "formattedAddress" : "Torsgatan 42A, 113 62 Stockholm, Sverige",
+            "placeId" : "ChIJdd7EPXqdX0YRvhg14rxVi78",
+            "route" : "Torsgatan",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "113 62",
+            "country" : "Sverige",
+            "longitude" : "18.0382936",
+            "countryCode" : "SE",
+            "streetNumber" : "42A",
+            "shortName" : null,
+            "latitude" : "59.3409939"
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2020-12-28T00:00:00.000Z"
+            }
+         },
+         "userUid" : "ay32cya0",
+         "rent" : 16500
+      },
+      {
+         "rent" : 15950,
+         "userUid" : "or6fab1b",
+         "professional" : true,
+         "location" : {
+            "formattedAddress" : "Garvis Carlssons Gata 12, 169 51 Solna, Sverige",
+            "placeId" : "Ei5HYXJ2aXMgQ2FybHNzb25zIEdhdGEgMTIsIDE2OSA1MSBTb2xuYSwgU3dlZGVuIhoSGAoUChIJj4EGQcCdX0YRjR9Un_JymCUQDA",
+            "route" : "Garvis Carlssons Gata",
+            "sublocality" : null,
+            "locality" : "Solna",
+            "postalCode" : "16941",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "17.9964816",
+            "shortName" : null,
+            "streetNumber" : "12",
+            "latitude" : "59.3617567"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            }
+         },
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "title" : "1-2.jpg",
+               "id" : 2151294,
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/44af885bf1d81c744c087901ee626bebd784f54a37d43b3e687f0c87b8d4939c.jpg",
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 20
+               },
+               "uploadType" : "home_picture"
+            }
+         ],
+         "applicationCount" : 20,
+         "landlordApplicationId" : null,
+         "recommendedRent" : 14041,
+         "safeRental" : true,
+         "adPaidAt" : null,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "declinedCount" : 6,
+         "fee" : 798,
+         "inContactCount" : 9,
+         "homeType" : "apartment",
+         "origin" : null,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "id" : 207391,
+         "matchingCount" : 312,
+         "roomCount" : 2,
+         "studentHome" : false,
+         "squareMeters" : 67,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://en.qasa.se/rent/apartment/garvis-carlssons-gata-solna/207391",
+            "fi" : "https://en.qasa.se/rent/apartment/garvis-carlssons-gata-solna/207391",
+            "sv" : "https://qasa.se/hyra/lagenhet/garvis-carlssons-gata-solna/207391",
+            "en" : "https://en.qasa.se/rent/apartment/garvis-carlssons-gata-solna/207391"
+         }
+      },
+      {
+         "uploads" : [
+            {
+               "title" : "MED4BA7FCC747C5430CAE7C29B754BC485E.jpg",
+               "id" : 2154305,
+               "metadata" : {
+                  "primary" : true,
+                  "rotation" : null,
+                  "order" : 1
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c326f430cf093c70a76f96a376efed7843ea656096940841dc5545fccfdba2f9.jpg"
+            }
+         ],
+         "applicationCount" : 33,
+         "homeStatus" : "normal",
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "location" : {
+            "locality" : "Stockholm",
+            "postalCode" : "11420",
+            "sublocality" : null,
+            "route" : "Birger Jarlsgatan",
+            "formattedAddress" : "Birger Jarlsgatan 104F, 114 20 Stockholm, Sverige",
+            "placeId" : "ChIJifr9hWudX0YRpgNxLwrSc84",
+            "latitude" : "59.3474063",
+            "shortName" : null,
+            "streetNumber" : "104F",
+            "longitude" : "18.0624394",
+            "countryCode" : "SE",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "rent" : 16100,
+         "userUid" : "6bohg5m4",
+         "fee" : 805,
+         "declinedCount" : 7,
+         "safeRental" : false,
+         "adPaidAt" : null,
+         "recommendedRent" : 14952,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "landlordApplicationId" : null,
+         "id" : 207781,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "origin" : null,
+         "inContactCount" : 19,
+         "homeType" : "apartment",
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/207781",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/birger-jarlsgatan-stockholm/207781",
+            "fi" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/207781",
+            "fr" : "https://bostad.blocket.se/rent/apartment/birger-jarlsgatan-stockholm/207781"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 44,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 560
+      },
+      {
+         "landlordApplicationId" : null,
+         "declinedCount" : 0,
+         "adPaidAt" : "2020-11-18T12:06:14.316Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 16639,
+         "fee" : 832,
+         "location" : {
+            "sublocality" : null,
+            "postalCode" : "11228",
+            "locality" : "Stockholm",
+            "formattedAddress" : "Bergsgatan 23, 112 28 Stockholm, Sverige",
+            "placeId" : "ChIJfRV1d9h3X0YRevTOYmqXCrQ",
+            "route" : "Bergsgatan",
+            "shortName" : null,
+            "streetNumber" : "23",
+            "latitude" : "59.3299832",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0422563"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2023-12-31T00:00:00.000Z"
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2021-01-01T00:00:00.000Z"
+            }
+         },
+         "professional" : false,
+         "rent" : 16639,
+         "userUid" : "ew847ldj",
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "id" : 2156861,
+               "title" : "IMG_1192.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/06fd3d689db9109f35b95161593f4c3a98428ccfa2c8f835a772aa74b98e2dbd.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "applicationCount" : 23,
+         "matchingCount" : 457,
+         "roomCount" : 2,
+         "squareMeters" : 71,
+         "studentHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/bergsgatan-stockholm/208055",
+            "fr" : "https://bostad.blocket.se/rent/apartment/bergsgatan-stockholm/208055",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/bergsgatan-stockholm/208055",
+            "en" : "https://bostad.blocket.se/rent/apartment/bergsgatan-stockholm/208055"
+         },
+         "corporateHome" : false,
+         "homeType" : "apartment",
+         "inContactCount" : 7,
+         "origin" : null,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "id" : 208055
+      },
+      {
+         "uploads" : [
+            {
+               "id" : 2157121,
+               "title" : "7063421D-4787-441B-B836-A2FD110B1606.jpeg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 2,
+                  "rotation" : null
+               },
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a506840140ac18370973d5f49de03e4113ef84f78b016faf10e01f3edc94d6c5.jpg",
+               "fileType" : "image"
+            }
+         ],
+         "applicationCount" : 25,
+         "homeStatus" : "normal",
+         "professional" : false,
+         "location" : {
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0518089",
+            "streetNumber" : "62",
+            "shortName" : null,
+            "latitude" : "59.3167837",
+            "placeId" : "ChIJVbC2Cuh3X0YRxdA1VsRSXzc",
+            "formattedAddress" : "Krukmakargatan, Stockholm, Sverige",
+            "route" : "Krukmakargatan",
+            "sublocality" : null,
+            "postalCode" : "117 41",
+            "locality" : "Stockholm"
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "asap" : false,
+               "optimal" : "2021-01-04T00:00:00.000Z"
+            }
+         },
+         "userUid" : "e8mx6at4",
+         "rent" : 15800,
+         "fee" : 790,
+         "declinedCount" : 7,
+         "safeRental" : true,
+         "adPaidAt" : "2020-11-18T12:44:21.149Z",
+         "seniorHome" : false,
+         "firsthand" : false,
+         "recommendedRent" : 14312,
+         "landlordApplicationId" : null,
+         "id" : 208095,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "origin" : null,
+         "inContactCount" : 5,
+         "homeType" : "apartment",
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/krukmakargatan-stockholm/208095",
+            "fi" : "https://bostad.blocket.se/rent/apartment/krukmakargatan-stockholm/208095",
+            "en" : "https://bostad.blocket.se/rent/apartment/krukmakargatan-stockholm/208095",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/krukmakargatan-stockholm/208095"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 45,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 287
+      },
+      {
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 0,
+         "id" : 208462,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "roomCount" : 2,
+         "matchingCount" : 220,
+         "corporateHome" : false,
+         "links" : {
+            "fr" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/208462",
+            "fi" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/208462",
+            "en" : "https://bostad.blocket.se/rent/apartment/drottningholmsvagen-stockholm/208462",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/drottningholmsvagen-stockholm/208462"
+         },
+         "studentHome" : false,
+         "squareMeters" : 35,
+         "userUid" : "2g7pqm67",
+         "rent" : 16950,
+         "duration" : {
+            "end" : {
+               "ufn" : true
+            },
+            "start" : {
+               "optimal" : "2021-01-01T00:00:00.000Z",
+               "asap" : false
+            }
+         },
+         "location" : {
+            "country" : "Sverige",
+            "longitude" : "17.9768474",
+            "countryCode" : "SE",
+            "shortName" : null,
+            "streetNumber" : "78",
+            "latitude" : "59.3336862",
+            "formattedAddress" : "Drottningholmsvägen, Stockholm, Sverige",
+            "placeId" : "ChIJtSjwHh92X0YRLEnmhuCFxfQ",
+            "route" : "Drottningholmsvägen",
+            "sublocality" : null,
+            "postalCode" : "112 43",
+            "locality" : "Stockholm"
+         },
+         "professional" : true,
+         "applicationCount" : 0,
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49ba91f4601aa5fc95b53869d9e9b3ae9a33618f017411b43bfbce0f0bb05613.png",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 6,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "title" : "kök och hall.png",
+               "id" : 2160574
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 848,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : "2020-11-19T13:02:43.534Z",
+         "firsthand" : false,
+         "recommendedRent" : 10511,
+         "declinedCount" : 0
+      },
+      {
+         "id" : 208476,
+         "currency" : "SEK",
+         "shared" : false,
+         "external" : false,
+         "origin" : null,
+         "inContactCount" : 0,
+         "homeType" : "apartment",
+         "corporateHome" : false,
+         "links" : {
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/skeppargatan-stockholm/208476",
+            "en" : "https://bostad.blocket.se/rent/apartment/skeppargatan-stockholm/208476",
+            "fr" : "https://bostad.blocket.se/rent/apartment/skeppargatan-stockholm/208476",
+            "fi" : "https://bostad.blocket.se/rent/apartment/skeppargatan-stockholm/208476"
+         },
+         "studentHome" : false,
+         "squareMeters" : 70,
+         "roomCount" : 2,
+         "matchingCount" : 377,
+         "applicationCount" : 1,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab2d731f74ccff222285456cc84851d0344a65aa62cadcdafdd11192bb0e4777.jpg",
+               "id" : 2160736,
+               "title" : "1.jpg"
+            }
+         ],
+         "homeStatus" : "normal",
+         "rent" : 17000,
+         "userUid" : "54e6of8w",
+         "location" : {
+            "placeId" : "ChIJbfvur0idX0YR9VZCvcr1yy8",
+            "formattedAddress" : "Skeppargatan 92, 115 30 Stockholm, Sverige",
+            "route" : "Skeppargatan",
+            "sublocality" : null,
+            "locality" : "Stockholm",
+            "postalCode" : "11530",
+            "country" : "Sverige",
+            "longitude" : "18.0898436",
+            "countryCode" : "SE",
+            "shortName" : null,
+            "streetNumber" : "92",
+            "latitude" : "59.3419223"
+         },
+         "professional" : true,
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-11-30T00:00:00.000Z"
+            },
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            }
+         },
+         "fee" : 850,
+         "safeRental" : false,
+         "firsthand" : false,
+         "adPaidAt" : "2020-11-19T13:27:31.407Z",
+         "seniorHome" : false,
+         "recommendedRent" : 18861,
+         "declinedCount" : 0,
+         "landlordApplicationId" : null
+      },
+      {
+         "id" : 208600,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "origin" : null,
+         "inContactCount" : 2,
+         "homeType" : "apartment",
+         "corporateHome" : false,
+         "links" : {
+            "fi" : "https://en.qasa.se/rent/apartment/erik-dahlbergsgatan-stockholm/208600",
+            "fr" : "https://en.qasa.se/rent/apartment/erik-dahlbergsgatan-stockholm/208600",
+            "sv" : "https://qasa.se/hyra/lagenhet/erik-dahlbergsgatan-stockholm/208600",
+            "en" : "https://en.qasa.se/rent/apartment/erik-dahlbergsgatan-stockholm/208600"
+         },
+         "studentHome" : false,
+         "squareMeters" : 38,
+         "roomCount" : 2,
+         "matchingCount" : 283,
+         "applicationCount" : 5,
+         "uploads" : [
+            {
+               "id" : 2161783,
+               "title" : "BFFD7379-8141-47EF-A3DB-902682FFB941.jpeg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d2e8035607488f5b031b48398c4bf41d0957a08fb091fb9df102f61ab88e2e9.jpg"
+            }
+         ],
+         "homeStatus" : "normal",
+         "rent" : 17500,
+         "userUid" : "njcqfphk",
+         "location" : {
+            "placeId" : "ChIJKSvUSk-dX0YRYchqmAd8AGs",
+            "formattedAddress" : "Erik Dahlbergsgatan 19, 115 24 Stockholm, Sverige",
+            "route" : "Erik Dahlbergsgatan",
+            "sublocality" : null,
+            "postalCode" : "11532",
+            "locality" : "Stockholm",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0903381",
+            "shortName" : null,
+            "streetNumber" : "19",
+            "latitude" : "59.3413716"
+         },
+         "professional" : false,
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-20T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "ufn" : true
+            }
+         },
+         "fee" : 875,
+         "safeRental" : true,
+         "seniorHome" : false,
+         "adPaidAt" : null,
+         "firsthand" : false,
+         "recommendedRent" : 15629,
+         "declinedCount" : 0,
+         "landlordApplicationId" : null
+      },
+      {
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/blekingegatan-12-stockholm/208827",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/blekingegatan-12-stockholm/208827",
+            "fi" : "https://bostad.blocket.se/rent/apartment/blekingegatan-12-stockholm/208827",
+            "fr" : "https://bostad.blocket.se/rent/apartment/blekingegatan-12-stockholm/208827"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 35,
+         "studentHome" : false,
+         "roomCount" : 2,
+         "matchingCount" : 628,
+         "id" : 208827,
+         "external" : false,
+         "shared" : false,
+         "currency" : "SEK",
+         "origin" : null,
+         "inContactCount" : 0,
+         "homeType" : "apartment",
+         "fee" : 770,
+         "declinedCount" : 0,
+         "adPaidAt" : "2020-11-20T15:13:23.514Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 13667,
+         "firsthand" : false,
+         "landlordApplicationId" : null,
+         "uploads" : [
+            {
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "order" : 2,
+                  "rotation" : null,
+                  "primary" : true
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8622ffea0d5500aa06243bc58bdce4f7fba4d7d0cd2b14b3a962a625a74cafb.jpg",
+               "id" : 2163667,
+               "title" : "695537.jpeg"
+            }
+         ],
+         "applicationCount" : 2,
+         "homeStatus" : "normal",
+         "duration" : {
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            },
+            "end" : {
+               "optimal" : "2021-11-30T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "location" : {
+            "streetNumber" : "12",
+            "shortName" : null,
+            "latitude" : "59.3091902",
+            "country" : "Sverige",
+            "countryCode" : "SE",
+            "longitude" : "18.0659459",
+            "sublocality" : null,
+            "postalCode" : "118 56",
+            "locality" : "Stockholm",
+            "placeId" : "ChIJ86ns9vF3X0YRJMnD9qZPnLI",
+            "formattedAddress" : "Blekingegatan 12, 118 56 Stockholm, Sverige",
+            "route" : "Blekingegatan 12"
+         },
+         "professional" : true,
+         "userUid" : "2g7pqm67",
+         "rent" : 15400
+      }
+   ],
+   "currentPage" : 1,
+   "filterHomes" : [
+      {
+         "fee" : 800,
+         "declinedCount" : 0,
+         "adPaidAt" : "2020-11-11T22:19:39.357Z",
+         "safeRental" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 15960,
+         "firsthand" : false,
+         "landlordApplicationId" : null,
+         "uploads" : [
+            {
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : null,
+                  "primary" : false
+               },
+               "uploadType" : "home_picture",
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0fbb816e681b44fd3f029181727f89c0d03fef96db81bfc8430687b3b6189a2b.jpg",
+               "title" : "IMG_3134.JPEG",
+               "id" : 2136340
+            }
+         ],
+         "applicationCount" : 15,
+         "homeStatus" : "normal",
+         "duration" : {
+            "start" : {
+               "asap" : true,
+               "optimal" : null
+            },
+            "end" : {
+               "optimal" : "2021-12-01T00:00:00.000Z",
+               "ufn" : false
+            }
+         },
+         "location" : {
+            "locality" : "Solna",
+            "postalCode" : "17147",
+            "sublocality" : null,
+            "route" : "Klippgatan",
+            "formattedAddress" : "Klippgatan 12A, 171 47 Solna, Sverige",
+            "placeId" : "ChIJxw7lNZSdX0YRxPhEdrh5CHM",
+            "latitude" : "59.3561392",
+            "streetNumber" : "12A",
+            "shortName" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0039715",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "userUid" : "w4o2sb1m",
+         "rent" : 16000,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/klippgatan-solna/205810",
+            "fr" : "https://bostad.blocket.se/rent/apartment/klippgatan-solna/205810",
+            "en" : "https://bostad.blocket.se/rent/apartment/klippgatan-solna/205810",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/klippgatan-solna/205810"
+         },
+         "corporateHome" : false,
+         "squareMeters" : 73,
+         "studentHome" : false,
+         "roomCount" : 3,
+         "matchingCount" : 337,
+         "id" : 205810,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 1
+      },
+      {
+         "rent" : 11000,
+         "userUid" : "ehzcmnu",
+         "location" : {
+            "route" : "Släggbacken",
+            "formattedAddress" : "Släggbacken, 171 53 Solna, Sverige",
+            "placeId" : "ChIJhxZ4Iu2dX0YR-S4g3U5CbXg",
+            "postalCode" : "171 53",
+            "locality" : "Solna",
+            "sublocality" : null,
+            "countryCode" : "SE",
+            "longitude" : "17.9907534",
+            "country" : "Sverige",
+            "latitude" : "59.352007",
+            "streetNumber" : "7",
+            "shortName" : null
+         },
+         "duration" : {
+            "end" : {
+               "ufn" : false,
+               "optimal" : "2021-02-15T00:00:00.000Z"
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "professional" : false,
+         "applicationCount" : 24,
+         "uploads" : [
+            {
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c40a6fa3fe78dceaa3017077dccfa3b37018706c4349f5f38cbd7a1cf1284265.jpg",
+               "fileType" : "image",
+               "metadata" : {
+                  "rotation" : null,
+                  "order" : 1,
+                  "primary" : true
+               },
+               "uploadType" : "home_picture",
+               "title" : "DSC_0760.JPG",
+               "id" : 2133003
+            }
+         ],
+         "homeStatus" : "normal",
+         "landlordApplicationId" : null,
+         "fee" : 550,
+         "safeRental" : true,
+         "adPaidAt" : "2020-11-10T23:05:17.340Z",
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 23462,
+         "declinedCount" : 0,
+         "origin" : null,
+         "homeType" : "apartment",
+         "inContactCount" : 2,
+         "id" : 205420,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "roomCount" : 5,
+         "matchingCount" : 694,
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/slaggbacken-solna/205420",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/slaggbacken-solna/205420",
+            "fr" : "https://bostad.blocket.se/rent/apartment/slaggbacken-solna/205420",
+            "fi" : "https://bostad.blocket.se/rent/apartment/slaggbacken-solna/205420"
+         },
+         "studentHome" : false,
+         "squareMeters" : 132
+      },
+      {
+         "corporateHome" : false,
+         "links" : {
+            "en" : "https://bostad.blocket.se/rent/apartment/storgatan-solna/205088",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/storgatan-solna/205088",
+            "fi" : "https://bostad.blocket.se/rent/apartment/storgatan-solna/205088",
+            "fr" : "https://bostad.blocket.se/rent/apartment/storgatan-solna/205088"
+         },
+         "studentHome" : false,
+         "squareMeters" : 71,
+         "roomCount" : 3,
+         "matchingCount" : 152,
+         "id" : 205088,
+         "shared" : false,
+         "currency" : "SEK",
+         "external" : false,
+         "origin" : null,
+         "inContactCount" : 2,
+         "homeType" : "apartment",
+         "fee" : 990,
+         "safeRental" : false,
+         "seniorHome" : false,
+         "adPaidAt" : null,
+         "firsthand" : false,
+         "recommendedRent" : 15804,
+         "declinedCount" : 3,
+         "landlordApplicationId" : null,
+         "uploads" : [
+            {
+               "id" : 2129268,
+               "title" : "storgatan-72a-1-tr_1285690.jpg",
+               "uploadType" : "home_picture",
+               "metadata" : {
+                  "primary" : true,
+                  "order" : 1,
+                  "rotation" : null
+               },
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21cfb0a874a29beba8edde14c752affc81cb4478e9e4d43617a48a6d69cf65f4.jpg"
+            }
+         ],
+         "applicationCount" : 5,
+         "homeStatus" : "normal",
+         "rent" : 19800,
+         "userUid" : "box1dtso",
+         "location" : {
+            "placeId" : "ChIJZ_rx2eydX0YRlEnylVBXC9U",
+            "formattedAddress" : "Storgatan, Solna, Sverige",
+            "route" : "Storgatan",
+            "sublocality" : null,
+            "postalCode" : "171 52",
+            "locality" : "Solna",
+            "country" : "Sverige",
+            "longitude" : "17.9903865",
+            "countryCode" : "SE",
+            "streetNumber" : "70",
+            "shortName" : null,
+            "latitude" : "59.3525847"
+         },
+         "professional" : false,
+         "duration" : {
+            "start" : {
+               "optimal" : "2020-12-01T00:00:00.000Z",
+               "asap" : false
+            },
+            "end" : {
+               "optimal" : "2021-11-30T00:00:00.000Z",
+               "ufn" : false
+            }
+         }
+      },
+      {
+         "declinedCount" : 47,
+         "safeRental" : false,
+         "adPaidAt" : "2020-07-08T12:05:32.731Z",
+         "firsthand" : false,
+         "seniorHome" : false,
+         "recommendedRent" : 16896,
+         "fee" : 650,
+         "landlordApplicationId" : null,
+         "homeStatus" : "normal",
+         "uploads" : [
+            {
+               "fileType" : "image",
+               "url" : "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d404e8f4857b7f717cc21e897712ec358a8ee0a7de81bfe7968b6070390d4f39.jpg",
+               "metadata" : {
+                  "primary" : false,
+                  "order" : null,
+                  "rotation" : null
+               },
+               "uploadType" : "home_picture",
+               "title" : "20200709_112952.jpg",
+               "id" : 1643216
+            }
+         ],
+         "applicationCount" : 57,
+         "location" : {
+            "locality" : "Solna",
+            "postalCode" : "17164",
+            "sublocality" : null,
+            "route" : "Karolinska vägen ",
+            "formattedAddress" : "Karolinska Vägen 18, 171 64 Solna, Sverige",
+            "placeId" : "ChIJSdxVsp-dX0YRkPVILUUHVmY",
+            "latitude" : "59.3527699",
+            "streetNumber" : "18",
+            "shortName" : null,
+            "countryCode" : "SE",
+            "longitude" : "18.0312796",
+            "country" : "Sverige"
+         },
+         "professional" : false,
+         "duration" : {
+            "end" : {
+               "optimal" : "2020-12-13T00:00:00.000Z",
+               "ufn" : false
+            },
+            "start" : {
+               "optimal" : null,
+               "asap" : true
+            }
+         },
+         "userUid" : "8wj5prbp",
+         "rent" : 13000,
+         "squareMeters" : 85,
+         "studentHome" : false,
+         "links" : {
+            "fi" : "https://bostad.blocket.se/rent/apartment/karolinska-vagen-solna/155609",
+            "fr" : "https://bostad.blocket.se/rent/apartment/karolinska-vagen-solna/155609",
+            "sv" : "https://bostad.blocket.se/hyra/lagenhet/karolinska-vagen-solna/155609",
+            "en" : "https://bostad.blocket.se/rent/apartment/karolinska-vagen-solna/155609"
+         },
+         "corporateHome" : false,
+         "matchingCount" : 524,
+         "roomCount" : 3,
+         "external" : false,
+         "currency" : "SEK",
+         "shared" : false,
+         "id" : 155609,
+         "homeType" : "apartment",
+         "inContactCount" : 9,
+         "origin" : null
+      }
+   ],
+   "queryId" : null,
+   "count" : 4,
+   "searchId" : 40887191,
+   "totalPages" : 1
+}

@@ -14,8 +14,6 @@ build-app:
 run-app:
 	docker run -it --rm \
 	-v=$(PWD)/app:/app \
-	-v=$(PWD)/crons/1min:/etc/periodic/1min \
-	-v=$(PWD)/crons/15min:/etc/periodic/15min \
 	-v=$(PWD)/datastore:/datastore \
 	-p=80:80 \
 	--name=scrapers_scrapers_scrapers \
@@ -24,8 +22,6 @@ run-app:
 sh-app:
 	docker run -it --rm \
 	-v=$(PWD)/app:/app \
-	-v=$(PWD)/crons/1min:/etc/periodic/1min \
-	-v=$(PWD)/crons/15min:/etc/periodic/15min \
 	-v=$(PWD)/datastore:/datastore \
 	-p=80:80 \
 	--name=scrapers_scrapers_scrapers \
