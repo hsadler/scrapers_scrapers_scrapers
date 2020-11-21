@@ -1,5 +1,3 @@
-import requests
-import json
 from flask import (
     Flask,
     request,
@@ -10,6 +8,7 @@ from flask import (
 import config.scrape_config as scrape_config
 import config.samtrygg_processing_1 as samtrygg_processing_config
 from model.samtrygg_listing import SamtryggListing
+from service.scrape import Scrape
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
 
@@ -90,68 +89,11 @@ def get_samtrygg_cities():
     )
 
 
-# test blocket scrape
+# relevant blocket json
 @app.route('/blocket/relevant/json')
 def get_relevant_blocket_results_json():
-    url = 'https://api.qasa.se/v1/homes/search'
-    headers = {
-        "Connection": "keep-alive",
-        "Accept": "application/json",
-        "X-Brand": "X-Brand",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36",
-        "Content-Type": "application/json",
-        "Origin": "https://bostad.blocket.se",
-        "Sec-Fetch-Site": "cross-site",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Dest": "empty",
-        "Referer": "https://bostad.blocket.se/",
-        "Accept-Language": "en-US,en;q=0.9,ko;q=0.8,hr;q=0.7,sv;q=0.6"
-    }
-    search_string = None
-    # search_string = "Stockholm" # testing
-    data = {
-        "minRoomCount":"3",
-        "maxRoomCount":None,
-        "maxRent":"24000",
-        "currency":None,
-        "minRentalLength":"2592000",
-        "maxRentalLength":"62208000",
-        "minSquareMeters":"50",
-        "moveInEarliest":"2020-12-01",
-        "moveOutEarliest":None,
-        "moveOutLatest":None,
-        "sharedHomeOk":False,
-        "hasPets":True,
-        "requiresWheelchairAccessible":False,
-        "furnished":"furnished_both",
-        "safeRental":False,
-        "homeType":[
-            "apartment",
-            "terrace_house",
-            "loft",
-            "duplex"
-        ],
-        "matchingArea":None,
-        "commuteLocation":{
-            "shortName": search_string,
-            "searchString": search_string,
-            "latitude":None,
-            "longitude":None,
-            "placeId":56,
-            "country":"Sweden",
-            "countryCode":"SE"
-        },
-        "areaId":56,
-        "helper":{},
-        "maxRentSek":"24000",
-        "maxRentEur":2400,
-        "maxRentCurrency":"SEK",
-        "token":"06e64aa419c6d37a1ea6fd4859fc2546",
-        "page":1,
-        "perPage":50
-    }
-    res = requests.post(url, data=json.dumps(data), headers=headers)
-    return res.json()
+    scrape_result_json = Scrape.scrape_blocket()
+    return scrape_result_json
 
 
 # run the app if executed as main file from python interpreter

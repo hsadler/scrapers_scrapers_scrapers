@@ -31,4 +31,4 @@ sh-app:
 	--name=scrapers_scrapers_scrapers \
 	scrapers_scrapers_scrapers:local /bin/bash
 
-up: run-app
+up: build-app run-app

@@ -1,3 +1,4 @@
+import json
 import requests
 import config.scrape_config as scrape_config
 
@@ -28,8 +29,63 @@ class Scrape():
 
     @staticmethod
     def scrape_blocket():
-        # NOTE: blocket and qasa use the same qasa json api
-        pass
+        # TODO:
+            # 1. call search api (maybe multiple times for different municipalities)
+            # 2. collect listing_ids
+            # 3. call listing endpoint per listing_id (maybe there's a batch endpoint for this)
+            # 4. create listing objects per listing response and collect
+            # 5. filter listings
+            # 6. return filtered listings
+            # NOTE: add config object as arg
+        # call blocket search api
+        blocket_search_post_data = {
+            "minRoomCount":"3",
+            "maxRoomCount":None,
+            "maxRent":"24000",
+            "currency":None,
+            "minRentalLength":"2592000",
+            "maxRentalLength":"62208000",
+            "minSquareMeters":"50",
+            "moveInEarliest":"2020-12-01",
+            "moveOutEarliest":None,
+            "moveOutLatest":None,
+            "sharedHomeOk":False,
+            "hasPets":True,
+            "requiresWheelchairAccessible":False,
+            "furnished":"furnished_both",
+            "safeRental":False,
+            "homeType":[
+                "apartment",
+                "terrace_house",
+                "loft",
+                "duplex"
+            ],
+            "matchingArea":None,
+            "commuteLocation":{
+                "shortName": None,
+                "searchString": None,
+                "latitude":None,
+                "longitude":None,
+                "placeId":56,
+                "country":"Sweden",
+                "countryCode":"SE"
+            },
+            "areaId":56,
+            "helper":{},
+            "maxRentSek":"24000",
+            "maxRentEur":2400,
+            "maxRentCurrency":"SEK",
+            "token":"06e64aa419c6d37a1ea6fd4859fc2546",
+            "page":1,
+            "perPage":50
+        }
+        res = requests.post(
+            url=scrape_config.BLOCKET_SEARCH_JSON_API_URL, 
+            data=json.dumps(blocket_search_post_data), 
+            headers=scrape_config.BLOCKET_JSON_API_HEADERS
+        )
+        # return json for now
+        return res.json()
 
 
     # QASA
