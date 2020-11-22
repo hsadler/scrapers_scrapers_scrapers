@@ -93,14 +93,21 @@ def get_samtrygg_cities():
 # relevant blocket json
 @app.route('/blocket/relevant/json')
 def get_relevant_blocket_results_json():
-    scrape_results = Scrape.scrape_blocket(config=blocket_scrape_config)
-    return jsonify(scrape_results)
+    raw_listings = Scrape.scrape_blocket(config=blocket_scrape_config)
+    return jsonify(raw_listings)
 
 
 # relevant blocket listings
 @app.route('/blocket/relevant')
 def get_relevant_blocket_results_page():
-    return 'TODO: implement!'
+    raw_listings = Scrape.scrape_blocket(config=blocket_scrape_config)
+    # html format
+    html_formatted_listings = []
+    for rl in raw_listings:
+        html_formatted_listings.append(Scrape.html_format_from_raw_blocket_listing(rl))
+    return '<h1>Relevant Blocket Listings:</h1><p>{}</p>'.format(
+        '<br>'.join(html_formatted_listings)
+    )
 
 
 # run the app if executed as main file from python interpreter

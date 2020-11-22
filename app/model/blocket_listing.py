@@ -5,6 +5,7 @@ class BlocketListing():
     Blocket listing model to wrap raw data structure
 
     TODO: finish updating to fit Blocket listing
+    NOTE: NOT USING ATM
     """
 
     PETS_ALLOWED = 10

@@ -38,13 +38,12 @@ class Scrape():
             # 6. return filtered listings
             # NOTE: add config object as arg
         # make calls to blocket search api
-        blocket_raw_search_results = cls.scrape_blocket_search(config)
-        # TEST: return
-        return blocket_raw_search_results
+        id_to_raw_listing = cls.scrape_blocket_search(config)
+        return id_to_raw_listing.values()
 
     @classmethod
     def scrape_blocket_search(cls, config):
-        agg_results = []
+        search_results = []
         for search_area in config.SEARCH_AREAS:
             post_data = cls.compose_blocket_post_data_for_search(
                 config,
@@ -55,12 +54,13 @@ class Scrape():
                 data=json.dumps(post_data), 
                 headers=config.JSON_API_HEADERS
             )
-            agg_results.append({
-                "result": res.json(),
-                "post_data": post_data
-            })
+            search_results.append(res.json())
             time.sleep(1)
-        return agg_results
+        id_to_raw_listing = {}
+        for sr in search_results:
+            for l in sr['filterHomes']:
+                id_to_raw_listing[l['id']] = l
+        return id_to_raw_listing
 
     @classmethod
     def scrape_blocket_listing(cls, config):
@@ -98,6 +98,23 @@ class Scrape():
             "perPage":50
         }
         return blocket_search_post_data
+
+    @classmethod
+    def html_format_from_raw_blocket_listing(cls, raw_listing):
+        l = raw_listing
+        parts = []
+        parts.append('<a href="{}" target="_blank">{}</a>'.format(
+            l['links']['en'],
+            l['location']['formattedAddress']
+        ))
+        parts.append('<img src="{}" style="height: 200px">'.format(
+            l['uploads'][0]['url']
+        ))
+        parts.append('city: {}'.format(l['location']['locality']))
+        parts.append('price: {}'.format(l['rent']))
+        parts.append('rooms: {}'.format(l['roomCount']))
+        parts.append('sq meters: {}'.format(l['squareMeters']))
+        return '<br>'.join(parts) + '<br>'
 
 
     # QASA
