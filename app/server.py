@@ -6,7 +6,7 @@ from flask import (
     jsonify
 )
 import config.scrape_config as scrape_config
-import config.samtrygg_processing_1 as samtrygg_processing_config
+import config.samtrygg_processing as samtrygg_processing_config
 import config.blocket_scrape_config as blocket_scrape_config
 from model.samtrygg_listing import SamtryggListing
 from service.scrape import Scrape

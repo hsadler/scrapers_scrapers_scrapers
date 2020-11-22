@@ -29,21 +29,15 @@ class Scrape():
 
     @classmethod
     def scrape_blocket(cls, config):
-        # TODO:
-            # 1. call search api (maybe multiple times for different municipalities)
-            # 2. collect listing_ids
-            # 3. call listing endpoint per listing_id (maybe there's a batch endpoint for this)
-            # 4. create listing objects per listing response and collect
-            # 5. filter listings
-            # 6. return filtered listings
-            # NOTE: add config object as arg
         # make calls to blocket search api
         id_to_raw_listing = cls.scrape_blocket_search(config)
+        # return raw listings
         return id_to_raw_listing.values()
 
     @classmethod
     def scrape_blocket_search(cls, config):
         search_results = []
+        # make a call for each search area defined by the config
         for search_area in config.SEARCH_AREAS:
             post_data = cls.compose_blocket_post_data_for_search(
                 config,
@@ -56,16 +50,12 @@ class Scrape():
             )
             search_results.append(res.json())
             time.sleep(1)
+        # dedupe the results by listing_id
         id_to_raw_listing = {}
         for sr in search_results:
             for l in sr['filterHomes']:
                 id_to_raw_listing[l['id']] = l
         return id_to_raw_listing
-
-    @classmethod
-    def scrape_blocket_listing(cls, config):
-        # TODO: impl stub
-        pass
 
     @classmethod
     def compose_blocket_post_data_for_search(cls, config, search_area):

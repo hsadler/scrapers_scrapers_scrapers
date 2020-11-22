@@ -12,7 +12,7 @@ X get emailing working with cron
 X get samtrygg formatting working for emails
 X convert to serve results with html
 X get basic blocket scrape working
-- get blocket scrape strategy working
-- get blocket results filtering working
-- get final blocket json serving working
-- get final blocket relevant page serving working
+X get blocket scrape strategy working
+X get blocket results filtering working
+X get final blocket json serving working
+X get final blocket relevant page serving working

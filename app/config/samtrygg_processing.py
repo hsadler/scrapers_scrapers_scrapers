@@ -3,9 +3,9 @@
 price_min = 10000
 price_max = 22000
 rooms_min = 3
-rooms_max = 5
+rooms_max = 6
 sq_meters_min = 50
-sq_meters_max = 110
+sq_meters_max = 200
 city_whitelist = (
     'Järfälla',
     'Saltsjö-duvnäs',
@@ -71,7 +71,7 @@ pets_allowed = True
 washer_dryer_included = True
 dishwasher_included = True
 
-# rank options
+# rank options (not currently used)
 listing_freshness_weight = 100
 price_per_square_meter_weight = 100
 optimal_room_amount_and_weight = (4, 100)
