@@ -13,9 +13,6 @@ from service.scrape import Scrape
 from service.apartment_listing_datastore import ApartmentListingDatastore
 from service.apartment_listing_processing import ApartmentListingProcessing
 
-# testing
-import config.secrets_config as secrets_config
-from service.email_report import EmailReport
 
 # init Flask app instance
 app = Flask(

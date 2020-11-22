@@ -1,8 +1,9 @@
 
 # scrapers_scrapers_scrapers
 
-A collection of web scrapers
+A collection of web scrapers.
 
+Currently includes configurable scraping for Samtrygg and Blocket rental listings.
 ---
 
 ## Run the app
@@ -10,7 +11,7 @@ A collection of web scrapers
 ### build the base image
 
 ```sh
-make build
+make build-base
 ```
 
 ### spin-up the container for web scraping
